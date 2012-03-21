@@ -1,16 +1,19 @@
 package nuzzgraph.server.core;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Admin
+ * Represents a placeholder for a Node
+ * User: Mark Nuzzolilo
  * Date: 3/20/12
  * Time: 1:36 AM
- * To change this template use File | Settings | File Templates.
  */
 public class NodeReference
 {
     long id;
 
+    /**
+     * Creates a new NodeReference
+     * @param id The id of the node
+     */
     public NodeReference(long id)
     {
         this.id = id;

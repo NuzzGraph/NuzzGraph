@@ -5,11 +5,10 @@ import com.tinkerpop.blueprints.pgm.Edge;
 import java.util.HashMap;
 
 /**
- * Created by IntelliJ IDEA.
+ * Contains a list of relationships for a node
  * User: Mark Nuzzolilo
  * Date: 3/19/12
  * Time: 10:04 PM
- * To change this template use File | Settings | File Templates.
  */
 public class NodeRelationshipsContainer extends HashMap<String, NodeCollection>
 {

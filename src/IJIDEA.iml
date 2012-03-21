@@ -10,6 +10,7 @@
     <orderEntry type="library" name="Jetty8" level="project" />
     <orderEntry type="library" name="OrientDB" level="project" />
     <orderEntry type="library" name="eric" level="project" />
+    <orderEntry type="library" name="gson-2.1" level="project" />
   </component>
 </module>
 

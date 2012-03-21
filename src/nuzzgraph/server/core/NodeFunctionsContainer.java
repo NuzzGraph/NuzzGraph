@@ -5,11 +5,12 @@ import nuzzgraph.server.core.exception.NodeFunction;
 import java.util.HashMap;
 
 /**
- * Created by IntelliJ IDEA.
+ * A map of functions
+ * Key = Function Name
+ * Value = Function Object
  * User: Mark Nuzzolilo
  * Date: 3/20/12
  * Time: 12:21 PM
- * To change this template use File | Settings | File Templates.
  */
 public class NodeFunctionsContainer extends HashMap<String, NodeFunction>
 {

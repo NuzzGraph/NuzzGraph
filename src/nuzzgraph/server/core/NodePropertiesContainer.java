@@ -5,7 +5,9 @@ import com.tinkerpop.blueprints.pgm.Vertex;
 import java.util.HashMap;
 
 /**
- * Created by IntelliJ IDEA.
+ * Contains all the properties belonging to a node.
+ * Key = Property Name
+ * Value = Property Value
  * User: Mark Nuzzolilo
  * Date: 3/19/12
  * Time: 10:05 PM

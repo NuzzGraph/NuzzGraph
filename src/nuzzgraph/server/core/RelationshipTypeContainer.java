@@ -1,12 +1,13 @@
 package nuzzgraph.server.core;
 
+import java.util.ArrayList;
+
 /**
- * Created by IntelliJ IDEA.
+ * Contains a list of RelationshipTypes
  * User: Admin
  * Date: 3/20/12
  * Time: 12:21 PM
- * To change this template use File | Settings | File Templates.
  */
-public class RelationshipTypeContainer
+public class RelationshipTypeContainer extends ArrayList<RelationshipType>
 {
 }

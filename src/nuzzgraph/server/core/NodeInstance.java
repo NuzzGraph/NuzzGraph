@@ -1,11 +1,16 @@
 package nuzzgraph.server.core;
 
+import com.orientechnologies.orient.core.exception.ODatabaseException;
 import com.tinkerpop.blueprints.pgm.Vertex;
 import nuzzgraph.server.core.exception.ServerIntegrityException;
 
+/**
+ * Represents a fully operable node.  This object takes time to initialize.
+ * Use NodeReference instead if you want to store a node placeholder quickly
+ */
 public class NodeInstance 
 {
-    Long id;
+    long id;
     NodeDataContainer nodeData;
     NodeSchema nodeType;
 
@@ -24,9 +29,20 @@ public class NodeInstance
      * @return an instance of the node
      */
     public static NodeInstance get(long id)
-        throws ServerIntegrityException, NullPointerException
+        throws ServerIntegrityException, NullPointerException, ODatabaseException
     {
-        Vertex v = ServerController.getGraphDB().getVertex(id);
+        String internal_id = NodeController.getVertexClusterId() + ":" + id;
+        Vertex v;
+
+        try
+        {
+            v = ServerController.getGraphDB().getVertex(internal_id);
+        }
+        catch (ODatabaseException e)
+        {
+            v = null;
+        }
+
         if (v == null)
             throw new NullPointerException("Node with ID " + id + " was not found.");
         
@@ -42,22 +58,31 @@ public class NodeInstance
             //nodeType = new NodeSchema(nodeTypeNode); //hack: inefficient and will need serious re-factor
         }
 
-        //n.originalNodeData = new NodeDataContainer();
-        //n.nodeData.CopyTo(n.originalNodeData);
-
         return n;
     }
 
+    /**
+     * Gets the node's ID
+     * @return the node's ID
+     */
     public long getId()
     {
         return id;
     }
 
+    /**
+     * Gets the type information for this node
+     * @return the type information for this node
+     */
     public NodeSchema getNodeType()
     {
         return nodeType;
     }
 
+    /**
+     * Gets the node's data
+     * @return the node's data
+     */
     public NodeDataContainer getNodeData()
     {
         return nodeData;

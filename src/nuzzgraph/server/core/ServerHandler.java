@@ -19,13 +19,22 @@ import java.util.Arrays;
 
 public class ServerHandler extends AbstractHandler
 {
+    /**
+     * Entry point for incoming request at servername:port
+     * @param target The portion of the URL to the right of the server location
+     * @param baseRequest The Request object associated with this request
+     * @param request The HttpServletRequest object associated with this request
+     * @param response The HttpServletResponse object associated with this response
+     * @throws IOException
+     * @throws ServletException
+     */
     public void handle(String target, Request baseRequest,HttpServletRequest request,HttpServletResponse response) 
         throws IOException, ServletException
     {
         String url = target;
         String[] tokens = url.split("/");
         String responseOutput = "";
-        
+
         //get controller type and parameters
         if (tokens.length > 0)
         {
@@ -42,14 +51,12 @@ public class ServerHandler extends AbstractHandler
                 parameters = null;
             }
 
-
-
             switch(controllerType)
             {
-                case "test":
+                case "test": //  /path.to/test
                     responseOutput = "Test successful.";
                     break;
-                case "node":
+                case "node": //  /path.to/node/id/functionName
                     responseOutput = NodeController.processRequest(parameters);
                     break;
             }
