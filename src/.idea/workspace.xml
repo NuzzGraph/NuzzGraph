@@ -90,19 +90,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainForm.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="33" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
+            <state line="62" column="57" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.43404907">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ServerController.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ServerController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.65179855">
+            <state line="43" column="6" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="method#main#0;class#ServerController#0" expanded="false" />
                 <element signature="method#startServer#0;class#ServerController#0" expanded="false" />
@@ -170,8 +170,8 @@
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.form" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
       </list>
     </option>
@@ -656,17 +656,17 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.49571276" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28331688" sideWeight="0.64025694" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28331688" sideWeight="0.64025694" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28331688" sideWeight="0.3559957" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32576504" sideWeight="0.5808351" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32576504" sideWeight="0.41907823" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32576504" sideWeight="0.41541755" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.49571276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.7166831" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976446" sideWeight="0.7166831" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976446" sideWeight="0.6742349" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.48499465" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -820,16 +820,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="33" selection-start="1506" selection-end="1506" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1431" selection-end="1431" vertical-scroll-proportion="0.65179855">
+        <state line="43" column="6" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="method#main#0;class#ServerController#0" expanded="false" />
             <element signature="method#startServer#0;class#ServerController#0" expanded="false" />
@@ -840,6 +833,13 @@
             <element signature="method#mainLoop#0;class#ServerController#0" expanded="false" />
             <element signature="method#beginHTTPListen#0;class#ServerController#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="57" selection-start="1800" selection-end="1800" vertical-scroll-proportion="0.43404907">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -54,7 +54,14 @@ public class MainForm extends JFrame
             {
                 String selectedText = listModel.getElementAt(e.getFirstIndex()).toString();
                 int iId = Integer.parseInt(selectedText.substring(selectedText.indexOf(" ") + 1));
-                NodeInstance n = NodeInstance.get(iId);
+                try
+                {
+                    NodeInstance n = NodeInstance.get(iId);
+                }
+                catch (Exception ex)
+                {
+                    logText("Error: " + ex.getMessage());
+                }
                 String sId = NodeHelper.getVertexId(iId);
 
             }

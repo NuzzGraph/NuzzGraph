@@ -93,17 +93,26 @@
       <file leaf-file-name="MainForm.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="0" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.4115108">
+            <state line="62" column="40" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.43404907">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainMenuBar.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.java">
+      <file leaf-file-name="ServerController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="38" selection-start="1225" selection-end="1225" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="43" column="6" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="method#main#0;class#ServerController#0" expanded="false" />
+                <element signature="method#startServer#0;class#ServerController#0" expanded="false" />
+                <element signature="method#stopServer#0;class#ServerController#0" expanded="false" />
+                <element signature="method#getGraphDB#0;class#ServerController#0" expanded="false" />
+                <element signature="method#getAllClasses#0;class#ServerController#0" expanded="false" />
+                <element signature="method#initializeServer#0;class#ServerController#0" expanded="false" />
+                <element signature="method#mainLoop#0;class#ServerController#0" expanded="false" />
+                <element signature="method#beginHTTPListen#0;class#ServerController#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -161,9 +170,9 @@
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.form" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
       </list>
     </option>
   </component>
@@ -647,17 +656,17 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.49571276" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28331688" sideWeight="0.635439" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28331688" sideWeight="0.64025694" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28331688" sideWeight="0.3608137" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32576504" sideWeight="0.5792291" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32576504" sideWeight="0.41907823" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32576504" sideWeight="0.41702357" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.49571276" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.7166831" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976446" sideWeight="0.7166831" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32976446" sideWeight="0.6742349" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.48499465" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -778,22 +787,6 @@
         <state line="83" column="32" selection-start="2436" selection-end="2436" vertical-scroll-proportion="0.23728813" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="0" selection-start="1925" selection-end="1925" vertical-scroll-proportion="0.9856115">
-          <folding>
-            <element signature="method#main#0;class#ServerController#0" expanded="false" />
-            <element signature="method#startServer#0;class#ServerController#0" expanded="false" />
-            <element signature="method#stopServer#0;class#ServerController#0" expanded="false" />
-            <element signature="method#getGraphDB#0;class#ServerController#0" expanded="false" />
-            <element signature="method#getAllClasses#0;class#ServerController#0" expanded="false" />
-            <element signature="method#initializeServer#0;class#ServerController#0" expanded="false" />
-            <element signature="method#mainLoop#0;class#ServerController#0" expanded="false" />
-            <element signature="method#beginHTTPListen#0;class#ServerController#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="86" column="5" selection-start="2340" selection-end="2340" vertical-scroll-proportion="0.0">
@@ -827,9 +820,25 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="6" selection-start="1243" selection-end="1243" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="method#main#0;class#ServerController#0" expanded="false" />
+            <element signature="method#startServer#0;class#ServerController#0" expanded="false" />
+            <element signature="method#stopServer#0;class#ServerController#0" expanded="false" />
+            <element signature="method#getGraphDB#0;class#ServerController#0" expanded="false" />
+            <element signature="method#getAllClasses#0;class#ServerController#0" expanded="false" />
+            <element signature="method#initializeServer#0;class#ServerController#0" expanded="false" />
+            <element signature="method#mainLoop#0;class#ServerController#0" expanded="false" />
+            <element signature="method#beginHTTPListen#0;class#ServerController#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="0" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.4115108">
+        <state line="62" column="40" selection-start="1783" selection-end="1783" vertical-scroll-proportion="0.43404907">
           <folding />
         </state>
       </provider>
