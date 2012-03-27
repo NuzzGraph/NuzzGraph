@@ -2,14 +2,12 @@ package nuzzgraph.server.core;
 
 import com.orientechnologies.orient.client.remote.OEngineRemote;
 import com.orientechnologies.orient.core.Orient;
-import com.orientechnologies.orient.core.db.graph.OGraphDatabase;
 import com.orientechnologies.orient.core.metadata.schema.OClass;
 import com.tinkerpop.blueprints.pgm.impls.orientdb.OrientGraph;
         
 public class ServerController 
 {
 	static OrientGraph graphdb;
-	static OGraphDatabase rawdb;
 	static ServerStatus status;
 	static String orientLocation = "remote:localhost/nuzzgraph-test";
 	
@@ -19,31 +17,63 @@ public class ServerController
         startServer();
 	}
 	
-	public static void startServer()
+	static void startServer()
 	{
         initializeServer();
         mainLoop();
     }
 
-	public static void stopServer()
+	static void stopServer()
 	{
         System.out.println("Shutting down server.");
         graphdb.shutdown();
 	}
-	
-	private static void initializeServer()
+
+    /**
+     * Connects to the graph DB at location and allows the API to be used
+     * @param location
+     */
+    public static void ConnectToGraphDB(String location)
+    {
+        Orient.instance().registerEngine(new OEngineRemote());
+        graphdb = new OrientGraph(orientLocation);
+        NodeController.setVertexClusterId(graphdb.getRawGraph().getClusterIdByName("OGraphVertex"));
+        NodeController.setEdgeClusterId(graphdb.getRawGraph().getClusterIdByName("OGraphEdge"));
+    }
+
+    /*
+    * Gets the graph database for this instance.
+    * @return The graph database for this instance.
+    */
+    public static OrientGraph getGraphDB()
+    {
+        return graphdb;
+    }
+
+    /**
+     * Gets a list of all classes existing in the database
+     * @return A list of all classes, one per line
+     */
+	public static String getAllClasses()
 	{
+        StringBuilder sBuilder = new StringBuilder();
+
+        for (OClass c : graphdb.getRawGraph().getMetadata().getSchema().getClasses())
+        {
+            sBuilder.append(c.getName() + System.getProperty("line.separator"));
+        }
+
+        return sBuilder.toString();
+	}
+
+    private static void initializeServer()
+    {
         System.out.println("Initializing server.");
         status = ServerStatus.Initializing;
-
         System.out.println("Connecting to OrientDB at " + orientLocation);
         try
         {
-            Orient.instance().registerEngine(new OEngineRemote());
-            graphdb = new OrientGraph(orientLocation);
-            rawdb = graphdb.getRawGraph();
-            NodeController.setVertexClusterId(rawdb.getClusterIdByName("OGraphVertex"));
-            NodeController.setEdgeClusterId(rawdb.getClusterIdByName("OGraphEdge"));
+            ConnectToGraphDB(orientLocation);
         }
         catch (Exception e)
         {
@@ -51,13 +81,12 @@ public class ServerController
             System.out.println("Unable to connect to OrientDB");
             return;
         }
-
         beginHTTPListen();
         status = ServerStatus.Available;
-	}
-	
-	private static void mainLoop() 
-	{
+    }
+
+    private static void mainLoop()
+    {
         try
         {
             while(status == ServerStatus.Available)
@@ -68,10 +97,10 @@ public class ServerController
         {
             stopServer();
         }
-	}
-	
-	static void beginHTTPListen()
-	{
+    }
+
+    private static void beginHTTPListen()
+    {
         final JettyServer server = new JettyServer(604);
 
         try
@@ -83,37 +112,7 @@ public class ServerController
         {
             System.out.println("Error starting server.");
         }
-	}
-	
-    public static OrientGraph getGraphDB()
-    {
-        return graphdb;
     }
-
-    /*
-     * Gets the raw graph database for this instance.
-     * @return The raw graph database for this instance.
-     */
-    public static OGraphDatabase getGraphDBRaw()
-    {
-        return rawdb;
-    }
-
-    /**
-     * Gets a list of all classes existing in the database
-     * @return A list of all classes, one per line
-     */
-	public static String getAllClasses()
-	{
-        StringBuilder sBuilder = new StringBuilder();
-
-        for (OClass c : rawdb.getMetadata().getSchema().getClasses())
-        {
-            sBuilder.append(c.getName() + System.getProperty("line.separator"));
-        }
-
-        return sBuilder.toString();
-	}
 }
 
 

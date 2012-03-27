@@ -11,9 +11,14 @@ public class NodeHelper
 {
     static int vertexClusterId;
 
-    public static int GetNodeId(Vertex v)
+    public static int getNodeId(Vertex v)
     {
         String vId = v.getId().toString();
         return Integer.parseInt(vId.substring(vId.indexOf(":") + 1));
+    }
+    
+    public static String getVertexId(int nodeId)
+    {
+        return "#" + vertexClusterId + ":" + nodeId;
     }
 }

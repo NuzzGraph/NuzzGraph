@@ -19,7 +19,8 @@ public class DBClientMain
     static JFrame frame;
     static OrientGraph graphdb;
     static MainForm form;
-    
+    static boolean exiting = false;
+
     public static void main(String[] args)
     {
         frame = new JFrame("NuzzGraph");
@@ -33,7 +34,10 @@ public class DBClientMain
         frame.pack();
         frame.setSize(800, 600);
         connectToServer();
-        frame.setVisible(true);
+
+        if (!exiting)
+            frame.setVisible(true);
+
     }
 
     public static void connectToServer()
@@ -47,6 +51,7 @@ public class DBClientMain
         catch (Exception e)
         {
             JOptionPane.showMessageDialog(form, "Unable to connect to server.  Ensure that NuzzGraph server is running.");
+            DBClientMain.exit();
             return;
         }
         LogText("Connected to NuzzGraph on instance " + dbName);
@@ -65,6 +70,7 @@ public class DBClientMain
     public static void exit()
     {
         frame.dispose();
+        exiting = true;
     }
     
     public static void LogText(String text)

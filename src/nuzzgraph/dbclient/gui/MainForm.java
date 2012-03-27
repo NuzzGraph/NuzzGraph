@@ -2,6 +2,7 @@ package nuzzgraph.dbclient.gui;
 
 import com.tinkerpop.blueprints.pgm.Vertex;
 import nuzzgraph.dbclient.NodeHelper;
+import nuzzgraph.server.core.NodeInstance;
 
 import javax.swing.*;
 import javax.swing.event.ListSelectionEvent;
@@ -52,8 +53,10 @@ public class MainForm extends JFrame
             public void valueChanged(ListSelectionEvent e)
             {
                 String selectedText = listModel.getElementAt(e.getFirstIndex()).toString();
-                int iId = selectedText.substring(selectedText.indexOf(" ") + 1);
-                String sId =
+                int iId = Integer.parseInt(selectedText.substring(selectedText.indexOf(" ") + 1));
+                NodeInstance n = NodeInstance.get(iId);
+                String sId = NodeHelper.getVertexId(iId);
+
             }
         });
 
@@ -89,7 +92,7 @@ public class MainForm extends JFrame
 
         for (Vertex v : vertices)
         {
-            listModel.addElement("Node " + NodeHelper.GetNodeId(v));
+            listModel.addElement("Node " + NodeHelper.getNodeId(v));
             //v.getId()
         }
     }
