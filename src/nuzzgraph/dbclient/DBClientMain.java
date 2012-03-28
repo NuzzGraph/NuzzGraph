@@ -1,12 +1,11 @@
 package nuzzgraph.dbclient;
 
-import com.orientechnologies.orient.client.remote.OEngineRemote;
-import com.orientechnologies.orient.core.Orient;
-import com.tinkerpop.blueprints.pgm.impls.orientdb.OrientGraph;
 import nuzzgraph.dbclient.gui.MainForm;
 import nuzzgraph.dbclient.gui.MainMenuBar;
+import nuzzgraph.server.core.ServerController;
 
 import javax.swing.*;
+import java.awt.*;
 
 /**
  * Main entry point for dbclient
@@ -16,23 +15,22 @@ import javax.swing.*;
  */
 public class DBClientMain
 {
-    static JFrame frame;
-    static OrientGraph graphdb;
-    static MainForm form;
-    static boolean exiting = false;
+    public static JFrame frame;
+    public static MainForm form;
+    public static boolean exiting = false;
 
     public static void main(String[] args)
     {
         frame = new JFrame("NuzzGraph");
         frame.setMenuBar(new MainMenuBar());
-
+        frame.setMinimumSize(new Dimension(900, 600));
         form = new MainForm();
 
         MainForm.setMainForm(form);
         frame.setContentPane(form.getContentPane());
         frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
         frame.pack();
-        frame.setSize(800, 600);
+        frame.setSize(900, 600);
         connectToServer();
 
         if (!exiting)
@@ -45,8 +43,7 @@ public class DBClientMain
         String dbName = "nuzzgraph-test";
         try
         {
-            Orient.instance().registerEngine(new OEngineRemote());
-            graphdb = new OrientGraph("remote:localhost/" + dbName);
+            ServerController.ConnectToGraphDB("remote:localhost/" + dbName);
         }
         catch (Exception e)
         {
@@ -54,7 +51,7 @@ public class DBClientMain
             DBClientMain.exit();
             return;
         }
-        LogText("Connected to NuzzGraph on instance " + dbName);
+        logText("Connected to NuzzGraph on instance " + dbName);
         
         form.enableGUI();
         refreshRootData();
@@ -62,9 +59,9 @@ public class DBClientMain
 
     private static void refreshRootData()
     {
-        NodeHelper.vertexClusterId = graphdb.getRawGraph().getClusterIdByName("OGraphVertex");
+        NodeHelper.vertexClusterId = ServerController.getGraphDB().getRawGraph().getClusterIdByName("OGraphVertex");
 
-        form.loadVerticesIntoList(graphdb.getVertices());
+        form.loadVerticesIntoList(ServerController.getGraphDB().getVertices());
     }
 
     public static void exit()
@@ -73,7 +70,7 @@ public class DBClientMain
         exiting = true;
     }
     
-    public static void LogText(String text)
+    public static void logText(String text)
     {
         form.logText(text + System.getProperty("line.separator"));
     }
