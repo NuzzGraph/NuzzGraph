@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="nuzzgraph.dbclient.gui.MainForm">
   <grid id="27dc6" binding="panelMain" layout-manager="FormLayout">
-    <rowspec value="fill:max(d;500px):grow"/>
+    <rowspec value="fill:d:grow"/>
     <rowspec value="fill:max(d;1px):noGrow"/>
     <colspec value="fill:max(d;600px):grow"/>
     <constraints>
@@ -22,7 +22,7 @@
         </constraints>
         <properties>
           <continuousLayout value="false"/>
-          <dividerLocation value="288"/>
+          <dividerLocation value="380"/>
           <oneTouchExpandable value="false"/>
           <orientation value="0"/>
           <resizeWeight value="1.0"/>
@@ -39,7 +39,7 @@
             </properties>
             <border type="none"/>
             <children>
-              <grid id="6c2fe" binding="tabRaw" layout-manager="FormLayout">
+              <grid id="7ba3" binding="tabRaw" layout-manager="FormLayout">
                 <rowspec value="center:d:grow"/>
                 <colspec value="fill:d:grow"/>
                 <constraints>
@@ -48,193 +48,24 @@
                 <properties/>
                 <border type="none"/>
                 <children>
-                  <splitpane id="1256c" binding="splitRaw">
+                  <grid id="811c7" binding="p1" layout-manager="FormLayout">
+                    <rowspec value="fill:d:grow"/>
+                    <colspec value="fill:d:grow"/>
                     <constraints>
-                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
                       <forms defaultalign-vert="false"/>
                     </constraints>
-                    <properties>
-                      <continuousLayout value="false"/>
-                      <dividerLocation value="180"/>
-                      <dividerSize value="0"/>
-                      <oneTouchExpandable value="false"/>
-                      <orientation value="1"/>
-                      <resizeWeight value="0.0"/>
-                    </properties>
+                    <properties/>
                     <border type="none"/>
                     <children>
-                      <grid id="33c8a" binding="panelNodeRaw" layout-manager="FormLayout">
-                        <rowspec value="fill:d:grow"/>
-                        <colspec value="fill:d:grow"/>
+                      <nested-form id="ce230" form-file="nuzzgraph/dbclient/gui/TabNodeRaw.form" binding="cTabNodeRaw">
                         <constraints>
-                          <splitpane position="right"/>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms defaultalign-horz="false" defaultalign-vert="false"/>
                         </constraints>
-                        <properties/>
-                        <border type="none"/>
-                        <children>
-                          <splitpane id="8fb2c" binding="splitNodeRaw">
-                            <constraints>
-                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
-                                <preferred-size width="200" height="200"/>
-                              </grid>
-                              <forms/>
-                            </constraints>
-                            <properties>
-                              <dividerSize value="0"/>
-                              <resizeWeight value="0.5"/>
-                            </properties>
-                            <border type="empty"/>
-                            <children>
-                              <grid id="b3123" binding="panelNodeRawPropertiesOuter" layout-manager="FormLayout">
-                                <rowspec value="fill:197px:grow"/>
-                                <rowspec value="center:max(d;4px):noGrow"/>
-                                <colspec value="center:max(d;300px):grow"/>
-                                <colspec value="fill:d:noGrow"/>
-                                <constraints>
-                                  <splitpane position="left"/>
-                                </constraints>
-                                <properties/>
-                                <border type="line"/>
-                                <children>
-                                  <grid id="d4813" binding="panelNodeRawPropertiesInner" layout-manager="FormLayout">
-                                    <rowspec value="center:56px:noGrow"/>
-                                    <rowspec value="fill:d:grow"/>
-                                    <colspec value="fill:d:grow"/>
-                                    <colspec value="right:d:noGrow"/>
-                                    <constraints>
-                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                                      <forms defaultalign-horz="false"/>
-                                    </constraints>
-                                    <properties/>
-                                    <border type="empty"/>
-                                    <children>
-                                      <scrollpane id="a77db" binding="spNodeRawProperties">
-                                        <constraints>
-                                          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                                          <forms/>
-                                        </constraints>
-                                        <properties>
-                                          <verticalScrollBar value="ab08"/>
-                                        </properties>
-                                        <border type="empty"/>
-                                        <children>
-                                          <grid id="a3c8" binding="panelNodeRawPropertiesData" layout-manager="GridBagLayout">
-                                            <constraints/>
-                                            <properties/>
-                                            <border type="empty"/>
-                                            <children/>
-                                          </grid>
-                                        </children>
-                                      </scrollpane>
-                                      <component id="ab08" class="javax.swing.JScrollBar" binding="scrollBarNodeRawProperties">
-                                        <constraints>
-                                          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
-                                          <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                                        </constraints>
-                                        <properties/>
-                                      </component>
-                                      <grid id="49967" layout-manager="FormLayout">
-                                        <rowspec value="fill:d:grow"/>
-                                        <colspec value="right:d:grow"/>
-                                        <colspec value="fill:d:noGrow"/>
-                                        <constraints>
-                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                                          <forms defaultalign-vert="false"/>
-                                        </constraints>
-                                        <properties/>
-                                        <border type="empty"/>
-                                        <children>
-                                          <component id="ab4f1" class="javax.swing.JLabel">
-                                            <constraints>
-                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
-                                              <forms defaultalign-horz="false"/>
-                                            </constraints>
-                                            <properties>
-                                              <text value="Node Properties"/>
-                                            </properties>
-                                          </component>
-                                          <component id="f68b4" class="javax.swing.JButton" binding="bSaveNodeRaw">
-                                            <constraints>
-                                              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
-                                              <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                                            </constraints>
-                                            <properties>
-                                              <text value="Save Node"/>
-                                            </properties>
-                                          </component>
-                                        </children>
-                                      </grid>
-                                    </children>
-                                  </grid>
-                                </children>
-                              </grid>
-                              <grid id="65037" binding="panelNodeRawRelationshipsOuter" layout-manager="FormLayout">
-                                <rowspec value="fill:d:grow"/>
-                                <colspec value="fill:max(d;300px):grow"/>
-                                <constraints>
-                                  <splitpane position="right"/>
-                                </constraints>
-                                <properties/>
-                                <border type="line"/>
-                                <children>
-                                  <grid id="2cd12" layout-manager="FormLayout">
-                                    <rowspec value="center:d:grow"/>
-                                    <colspec value="fill:d:grow"/>
-                                    <constraints>
-                                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
-                                      <forms defaultalign-vert="false"/>
-                                    </constraints>
-                                    <properties/>
-                                    <border type="none"/>
-                                    <children/>
-                                  </grid>
-                                </children>
-                              </grid>
-                            </children>
-                          </splitpane>
-                        </children>
-                      </grid>
-                      <scrollpane id="65f52">
-                        <constraints>
-                          <splitpane position="left"/>
-                        </constraints>
-                        <properties>
-                          <verticalScrollBar value="22dcd"/>
-                        </properties>
-                        <border type="line"/>
-                        <children>
-                          <grid id="1c383" binding="panelListRaw" layout-manager="FormLayout">
-                            <rowspec value="fill:d:grow"/>
-                            <colspec value="fill:max(d;150px):grow"/>
-                            <colspec value="fill:d:noGrow"/>
-                            <constraints/>
-                            <properties/>
-                            <border type="empty">
-                              <color color="-16777216"/>
-                            </border>
-                            <children>
-                              <component id="7c3f6" class="javax.swing.JList" binding="listRawNodes">
-                                <constraints>
-                                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
-                                    <preferred-size width="150" height="170"/>
-                                  </grid>
-                                  <forms defaultalign-vert="false"/>
-                                </constraints>
-                                <properties/>
-                              </component>
-                              <component id="22dcd" class="javax.swing.JScrollBar" binding="scrollbarNodeSelectionRaw">
-                                <constraints>
-                                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
-                                  <forms defaultalign-horz="false" defaultalign-vert="false"/>
-                                </constraints>
-                                <properties/>
-                              </component>
-                            </children>
-                          </grid>
-                        </children>
-                      </scrollpane>
+                      </nested-form>
                     </children>
-                  </splitpane>
+                  </grid>
                 </children>
               </grid>
               <grid id="49669" binding="tabRawGraph" layout-manager="FormLayout">

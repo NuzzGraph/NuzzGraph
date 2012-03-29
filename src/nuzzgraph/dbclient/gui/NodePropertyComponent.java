@@ -4,6 +4,7 @@ import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 
 import javax.swing.*;
+import javax.swing.event.DocumentListener;
 import java.awt.*;
 
 /**
@@ -21,15 +22,11 @@ public class NodePropertyComponent extends JComponent
     public NodePropertyComponent()
     {
         add(panelMain);
-
         createUIComponents();
-        invalidate();
-        repaint();
     }
 
     private void createUIComponents()
     {
-        // TODO: place custom component creation code here
     }
 
     /**
@@ -42,6 +39,11 @@ public class NodePropertyComponent extends JComponent
     {
         lblName.setText(pName);
         txtValue.setText(pValue);
+    }
+
+    public void addNodePropertyChangedListener(DocumentListener l)
+    {
+        txtValue.getDocument().addDocumentListener(l);
     }
 
     {
@@ -61,7 +63,7 @@ public class NodePropertyComponent extends JComponent
     private void $$$setupUI$$$()
     {
         panelMain = new JPanel();
-        panelMain.setLayout(new FormLayout("fill:93px:noGrow,left:10dlu:noGrow,fill:max(d;150px):grow,left:10dlu:noGrow,fill:max(d;20px):noGrow", "center:max(d;30px):grow"));
+        panelMain.setLayout(new FormLayout("fill:93px:grow(0.5),left:10dlu:noGrow,fill:max(d;150px):grow(0.5),left:10dlu:noGrow,fill:max(d;20px):noGrow", "center:max(d;30px):grow"));
         txtValue = new JTextField();
         txtValue.setText(" ");
         txtValue.putClientProperty("caretWidth", new Integer(10));
