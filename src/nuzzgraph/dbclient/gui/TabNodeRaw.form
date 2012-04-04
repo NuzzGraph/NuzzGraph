@@ -174,18 +174,30 @@
                                 </properties>
                                 <border type="empty"/>
                                 <children>
-                                  <grid id="58d7" binding="panelNodeRawPropertiesData" layout-manager="GridBagLayout">
+                                  <grid id="67f14" binding="panelNodeRawPropertiesDataOuter" layout-manager="FormLayout">
+                                    <rowspec value="center:d:noGrow"/>
+                                    <colspec value="fill:d:grow"/>
                                     <constraints/>
                                     <properties/>
-                                    <border type="empty"/>
+                                    <border type="none"/>
                                     <children>
-                                      <component id="26e1c" class="javax.swing.JScrollBar" binding="scrollBarNodeRawProperties">
+                                      <grid id="58d7" binding="panelNodeRawPropertiesData" layout-manager="GridBagLayout">
                                         <constraints>
-                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
-                                          <gridbag weightx="1.0" weighty="1.0"/>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                                          <forms defaultalign-vert="false"/>
                                         </constraints>
                                         <properties/>
-                                      </component>
+                                        <border type="empty"/>
+                                        <children>
+                                          <component id="26e1c" class="javax.swing.JScrollBar" binding="scrollBarNodeRawProperties">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+                                              <gridbag weightx="1.0" weighty="1.0"/>
+                                            </constraints>
+                                            <properties/>
+                                          </component>
+                                        </children>
+                                      </grid>
                                     </children>
                                   </grid>
                                 </children>

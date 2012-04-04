@@ -3,20 +3,24 @@ package nuzzgraph.dbclient.gui;
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
 import com.tinkerpop.blueprints.pgm.Vertex;
+import javaEventing.EventManager;
+import javaEventing.interfaces.Event;
+import javaEventing.interfaces.GenericEventListener;
 import nuzzgraph.dbclient.DBClientMain;
 import nuzzgraph.dbclient.NodeHelper;
 import nuzzgraph.server.core.NodeInstance;
 import nuzzgraph.server.core.NodePropertiesContainer;
+import nuzzgraph.server.core.exception.ServerIntegrityException;
 
 import javax.swing.*;
 import javax.swing.border.TitledBorder;
-import javax.swing.event.DocumentEvent;
-import javax.swing.event.DocumentListener;
 import javax.swing.event.ListSelectionEvent;
 import javax.swing.event.ListSelectionListener;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.util.ArrayList;
+import java.util.Arrays;
 
 /**
  * User: Mark Nuzzolilo
@@ -49,6 +53,7 @@ public class TabNodeRaw extends JComponent
     JButton bReloadNode;
     JButton bDeleteNode;
     JLabel lblNodeId;
+    JPanel panelNodeRawPropertiesDataOuter;
 
     private DefaultListModel listModel;
     private GridBagConstraints gbcItem;
@@ -56,6 +61,10 @@ public class TabNodeRaw extends JComponent
 
     private String selectedNodeRaw = "";
     private boolean changesMadeToNode;
+
+    //Node data
+    private long currentNodeId = -1;
+    ArrayList<NodePropertyComponent> currentNodeProperties;
 
     public TabNodeRaw()
     {
@@ -79,18 +88,18 @@ public class TabNodeRaw extends JComponent
                     return;
                 selectedNodeRaw = selectedText;
 
+                //Get node id
                 int iId = Integer.parseInt(selectedText.substring(selectedText.indexOf(" ") + 1));
+
+                //Load node
                 try
                 {
-                    NodeInstance n = NodeInstance.get(iId);
-                    loadNode(n);
+                    loadNode(iId);
                 }
                 catch (Exception ex)
                 {
                     DBClientMain.logText("Error: " + ex.getMessage());
                 }
-                String sId = NodeHelper.getVertexId(iId);
-
             }
 
         });
@@ -168,6 +177,8 @@ public class TabNodeRaw extends JComponent
     private void doAddProperty()
     {
         changesMadeToNode = true;
+        addPropertyGUI("", "");
+        repaintGUI();
     }
 
     private void doDeleteNode()
@@ -177,7 +188,21 @@ public class TabNodeRaw extends JComponent
 
     private void doReloadNode()
     {
-        checkSaveNode();
+        if (currentNodeId < 0) //no node loaded
+            return;
+
+        //Are you sure?
+        if (JOptionPane.showConfirmDialog(DBClientMain.frame, "All changes will be lost.  Continue?", "Reload Node", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
+        {
+            try
+            {
+                loadNode(currentNodeId);
+            }
+            catch (Exception ex)
+            {
+                DBClientMain.logText(ex.getMessage());
+            }
+        }
     }
 
     private void doNewNode()
@@ -189,66 +214,93 @@ public class TabNodeRaw extends JComponent
     {
         if (changesMadeToNode && JOptionPane.showConfirmDialog(DBClientMain.frame, "Save changes to node?", "", JOptionPane.YES_NO_OPTION) == JOptionPane.YES_OPTION)
             doSaveNode();
-
     }
 
-    private void loadNode(NodeInstance n)
+    private void loadNode(long nodeid)
+            throws ServerIntegrityException
     {
-        panelNodeRawPropertiesData.removeAll(); //clear out any old data
+        //initialize node data
+        currentNodeProperties = new ArrayList<NodePropertyComponent>();
 
+        //get node data from data store
+        NodeInstance n = NodeInstance.get(nodeid);
+
+        //clear out any old data from GUI
+        panelNodeRawPropertiesData.removeAll();
+
+        //Load properties
         NodePropertiesContainer props = n.getNodeData().getProperties();
         String[] keys = new String[props.keySet().size()];
         props.keySet().toArray(keys);
-
-        int count = 0;
+        Arrays.sort(keys);
 
         for (int i = 0; i < keys.length; i++)
         {
-            //Get key and value
+            //Get property key and property value
             String pKey = keys[i];
             String pValue = props.get(pKey);
 
             //Load GUI component
-            final NodePropertyComponent c = new NodePropertyComponent();
-            c.initValues(pKey, pValue);
-
-            //detect changes made
-            c.addNodePropertyChangedListener(new DocumentListener()
-            {
-                @Override
-                public void insertUpdate(DocumentEvent e) {}
-
-                @Override
-                public void removeUpdate(DocumentEvent e) {}
-
-                @Override
-                public void changedUpdate(DocumentEvent e)
-                {
-                    changesMadeToNode = true;
-                }
-            });
-
-            if (i == keys.length - 1)
-            {
-                gbcItemLast.gridy = i;
-                panelNodeRawPropertiesData.add(c.$$$getRootComponent$$$(), gbcItemLast);
-            }
-            else
-            {
-                gbcItem.gridy = i;
-                panelNodeRawPropertiesData.add(c.$$$getRootComponent$$$(), gbcItem);
-            }
-
-
+            addPropertyGUI(pKey, pValue);
         }
 
-        //
-        // panelNodeRawPropertiesData.repaint();
-        //invalidate();
-        panelNodeRawPropertiesData.revalidate();
-        panelNodeRawPropertiesData.repaint();
+        repaintGUI();
 
         lblNodeId.setText("Node " + n.getId());
+
+        //Set current node
+        currentNodeId = nodeid;
+    }
+
+    private void addPropertyGUI(String pKey, String pValue)
+    {
+        NodePropertyComponent c = new NodePropertyComponent();
+        c.initValues(pKey, pValue);
+
+        //detect changes made
+        EventManager.registerEventListener(new GenericEventListener()
+        {
+            @Override
+            public void eventTriggered(Object o, Event event)
+            {
+                changesMadeToNode = true;
+            }
+        }, NodePropertyComponent.PropertyChangedEvent.class);
+
+        //add GUI component container to our node data
+        currentNodeProperties.add(c);
+
+        //Add the item to the screen
+        gbcItem.gridy = currentNodeProperties.size() - 1;
+        panelNodeRawPropertiesData.add(c.$$$getRootComponent$$$(), gbcItem);
+
+        /*
+        gbcItemLast.gridy = currentNodeProperties.size() - 1;
+        panelNodeRawPropertiesData.add(c.$$$getRootComponent$$$(), gbcItemLast);
+        */
+
+        /*
+        if (i == keys.length - 1)
+        {
+            gbcItemLast.gridy = i;
+            panelNodeRawPropertiesData.add(c.$$$getRootComponent$$$(), gbcItemLast);
+        }
+        else
+        {
+            gbcItem.gridy = i;
+            panelNodeRawPropertiesData.add(c.$$$getRootComponent$$$(), gbcItem);
+        }
+        */
+    }
+
+    /**
+     * Repaints the GUI (such as after adding or removing a component
+     */
+    private void repaintGUI()
+    {
+        //Refresh GUI
+        panelNodeRawPropertiesData.revalidate();
+        panelNodeRawPropertiesData.repaint();
     }
 
     public void loadVerticesIntoList(Iterable<Vertex> vertices)
@@ -343,9 +395,12 @@ public class TabNodeRaw extends JComponent
         spNodeRawProperties = new JScrollPane();
         split4.setRightComponent(spNodeRawProperties);
         spNodeRawProperties.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(), null));
+        panelNodeRawPropertiesDataOuter = new JPanel();
+        panelNodeRawPropertiesDataOuter.setLayout(new FormLayout("fill:d:grow", "center:d:noGrow"));
+        spNodeRawProperties.setViewportView(panelNodeRawPropertiesDataOuter);
         panelNodeRawPropertiesData = new JPanel();
         panelNodeRawPropertiesData.setLayout(new GridBagLayout());
-        spNodeRawProperties.setViewportView(panelNodeRawPropertiesData);
+        panelNodeRawPropertiesDataOuter.add(panelNodeRawPropertiesData, cc.xy(1, 1, CellConstraints.DEFAULT, CellConstraints.TOP));
         panelNodeRawPropertiesData.setBorder(BorderFactory.createTitledBorder(BorderFactory.createEmptyBorder(), null));
         scrollBarNodeRawProperties = new JScrollBar();
         GridBagConstraints gbc;

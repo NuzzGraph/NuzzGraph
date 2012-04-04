@@ -2,8 +2,11 @@ package nuzzgraph.dbclient.gui;
 
 import com.jgoodies.forms.layout.CellConstraints;
 import com.jgoodies.forms.layout.FormLayout;
+import javaEventing.EventManager;
+import javaEventing.EventObject;
 
 import javax.swing.*;
+import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.*;
 
@@ -27,6 +30,7 @@ public class NodePropertyComponent extends JComponent
 
     private void createUIComponents()
     {
+        txtValue.putClientProperty("caretWidth", 2); //disable annoying wide caret/cursor on text
     }
 
     /**
@@ -39,9 +43,28 @@ public class NodePropertyComponent extends JComponent
     {
         lblName.setText(pName);
         txtValue.setText(pValue);
+        addNodePropertyChangedListener(new DocumentListener() {
+            @Override
+            public void insertUpdate(DocumentEvent e)
+            {
+                EventManager.triggerEvent(this, new PropertyChangedEvent());
+            }
+
+            @Override
+            public void removeUpdate(DocumentEvent e)
+            {
+                EventManager.triggerEvent(this, new PropertyChangedEvent());
+            }
+
+            @Override
+            public void changedUpdate(DocumentEvent e)
+            {
+                EventManager.triggerEvent(this, new PropertyChangedEvent());
+            }
+        });
     }
 
-    public void addNodePropertyChangedListener(DocumentListener l)
+    private void addNodePropertyChangedListener(DocumentListener l)
     {
         txtValue.getDocument().addDocumentListener(l);
     }
@@ -87,4 +110,7 @@ public class NodePropertyComponent extends JComponent
      */
     public JComponent $$$getRootComponent$$$()
     { return panelMain; }
+
+    class PropertyChangedEvent extends EventObject {}   // <-- Define your own event, by implementing an interface or inheriting a class.
+
 }
