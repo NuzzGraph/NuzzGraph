@@ -10,13 +10,17 @@ import nuzzgraph.server.core.exception.ServerIntegrityException;
  */
 public class NodeInstance 
 {
+    //data components
     long id;
     NodeDataContainer nodeData;
     NodeSchema nodeType;
 
-    //NodeDataContainer originalNodeData;
+    //internal data for underlying data store
+    Vertex internalData;
+
+    //data for committing
     boolean changesMade;
-    boolean accessed;
+    NodeDataContainer newNodeData;
 
     private NodeInstance(Vertex v)
     {
@@ -49,6 +53,7 @@ public class NodeInstance
         NodeInstance n = new NodeInstance(v);
         n.id = id;
         n.nodeData = new NodeDataContainer(v);
+        n.internalData = v;
         
         if (n.nodeData.getOutgoingRelationships().containsKey("IsNodeType"))
         {
@@ -86,6 +91,26 @@ public class NodeInstance
     public NodeDataContainer getNodeData()
     {
         return nodeData;
+    }
+
+    /**
+     * Adds a property to be committed.  All properties which are to remain in this node must be added to this method
+     * Any properties not added via this method for EACH commit will be lost
+     * @param pKey
+     * @param pValue
+     */
+    public void AddPropertyForCommit(String pKey, String pValue)
+    {
+        if (!changesMade)
+        {
+            changesMade = true;
+            originalNodeData = new NodeDataContainer();
+
+
+            //Get all keys
+            internalData.getPropertyKeys();
+
+        }
     }
 }
 

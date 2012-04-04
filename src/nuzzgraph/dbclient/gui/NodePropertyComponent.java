@@ -18,8 +18,8 @@ import java.awt.*;
 public class NodePropertyComponent extends JComponent
 {
     private JButton bDelete;
+    private JTextField txtName;
     private JTextField txtValue;
-    private JLabel lblName;
     private JPanel panelMain;
 
     public NodePropertyComponent()
@@ -41,9 +41,10 @@ public class NodePropertyComponent extends JComponent
      */
     public void initValues(String pName, String pValue)
     {
-        lblName.setText(pName);
+        txtName.setText(pName);
         txtValue.setText(pValue);
-        addNodePropertyChangedListener(new DocumentListener() {
+        DocumentListener listener = new DocumentListener()
+        {
             @Override
             public void insertUpdate(DocumentEvent e)
             {
@@ -61,12 +62,10 @@ public class NodePropertyComponent extends JComponent
             {
                 EventManager.triggerEvent(this, new PropertyChangedEvent());
             }
-        });
-    }
+        };
 
-    private void addNodePropertyChangedListener(DocumentListener l)
-    {
-        txtValue.getDocument().addDocumentListener(l);
+        txtValue.getDocument().addDocumentListener(listener);
+        txtName.getDocument().addDocumentListener(listener);
     }
 
     {
@@ -86,7 +85,7 @@ public class NodePropertyComponent extends JComponent
     private void $$$setupUI$$$()
     {
         panelMain = new JPanel();
-        panelMain.setLayout(new FormLayout("fill:93px:grow(0.5),left:10dlu:noGrow,fill:max(d;150px):grow(0.5),left:10dlu:noGrow,fill:max(d;20px):noGrow", "center:max(d;30px):grow"));
+        panelMain.setLayout(new FormLayout("fill:120px:noGrow,left:4dlu:noGrow,fill:d:grow,left:10dlu:noGrow,fill:max(d;20px):noGrow", "center:max(d;30px):grow"));
         txtValue = new JTextField();
         txtValue.setText(" ");
         txtValue.putClientProperty("caretWidth", new Integer(10));
@@ -99,10 +98,8 @@ public class NodePropertyComponent extends JComponent
         bDelete.setHideActionText(false);
         bDelete.setText("X");
         panelMain.add(bDelete, cc.xy(5, 1));
-        lblName = new JLabel();
-        lblName.setText("Label");
-        panelMain.add(lblName, cc.xy(1, 1, CellConstraints.RIGHT, CellConstraints.DEFAULT));
-        lblName.setLabelFor(txtValue);
+        txtName = new JTextField();
+        panelMain.add(txtName, cc.xy(1, 1, CellConstraints.FILL, CellConstraints.DEFAULT));
     }
 
     /**

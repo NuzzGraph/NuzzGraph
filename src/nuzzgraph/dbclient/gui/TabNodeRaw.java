@@ -10,6 +10,7 @@ import nuzzgraph.dbclient.DBClientMain;
 import nuzzgraph.dbclient.NodeHelper;
 import nuzzgraph.server.core.NodeInstance;
 import nuzzgraph.server.core.NodePropertiesContainer;
+import nuzzgraph.server.core.ServerController;
 import nuzzgraph.server.core.exception.ServerIntegrityException;
 
 import javax.swing.*;
@@ -59,12 +60,13 @@ public class TabNodeRaw extends JComponent
     private GridBagConstraints gbcItem;
     private GridBagConstraints gbcItemLast;
 
-    private String selectedNodeRaw = "";
     private boolean changesMadeToNode;
 
     //Node data
+    private String selectedNodeFriendlyId = "";
     private long currentNodeId = -1;
     ArrayList<NodePropertyComponent> currentNodeProperties;
+    NodeInstance currentNodeInstance;
 
     public TabNodeRaw()
     {
@@ -84,9 +86,9 @@ public class TabNodeRaw extends JComponent
             {
                 //Check text of selected node
                 String selectedText = listModel.getElementAt(listRawNodes.getSelectedIndex()).toString();
-                if (selectedText.equals(selectedNodeRaw))
+                if (selectedText.equals(selectedNodeFriendlyId))
                     return;
-                selectedNodeRaw = selectedText;
+                selectedNodeFriendlyId = selectedText;
 
                 //Get node id
                 int iId = Integer.parseInt(selectedText.substring(selectedText.indexOf(" ") + 1));
@@ -171,7 +173,18 @@ public class TabNodeRaw extends JComponent
 
     private void doSaveNode()
     {
+        try
+        {
+            currentNodeInstance.
+        }
+        catch (Exception e)
+        {
+            DBClientMain.logText(e.getMessage());
+        }
+
         changesMadeToNode = false;
+
+
     }
 
     private void doAddProperty()
@@ -179,6 +192,10 @@ public class TabNodeRaw extends JComponent
         changesMadeToNode = true;
         addPropertyGUI("", "");
         repaintGUI();
+
+        NuzzGUIHelper.SetScrollbarToEnd(spNodeRawProperties);
+        //scrollBarNodeRawProperties.setValue(1000);
+
     }
 
     private void doDeleteNode()
@@ -188,7 +205,7 @@ public class TabNodeRaw extends JComponent
 
     private void doReloadNode()
     {
-        if (currentNodeId < 0) //no node loaded
+        if (currentNodeInstance == null) //no node loaded
             return;
 
         //Are you sure?
@@ -196,7 +213,7 @@ public class TabNodeRaw extends JComponent
         {
             try
             {
-                loadNode(currentNodeId);
+                loadNode(currentNodeInstance.getId());
             }
             catch (Exception ex)
             {
@@ -222,9 +239,6 @@ public class TabNodeRaw extends JComponent
         //initialize node data
         currentNodeProperties = new ArrayList<NodePropertyComponent>();
 
-        //get node data from data store
-        NodeInstance n = NodeInstance.get(nodeid);
-
         //clear out any old data from GUI
         panelNodeRawPropertiesData.removeAll();
 
@@ -249,7 +263,7 @@ public class TabNodeRaw extends JComponent
         lblNodeId.setText("Node " + n.getId());
 
         //Set current node
-        currentNodeId = nodeid;
+        NodeInstance n = NodeInstance.get(nodeid);
     }
 
     private void addPropertyGUI(String pKey, String pValue)
