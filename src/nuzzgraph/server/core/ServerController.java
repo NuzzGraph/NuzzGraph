@@ -2,12 +2,14 @@ package nuzzgraph.server.core;
 
 import com.orientechnologies.orient.client.remote.OEngineRemote;
 import com.orientechnologies.orient.core.Orient;
+import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx;
 import com.orientechnologies.orient.core.metadata.schema.OClass;
 import com.tinkerpop.blueprints.pgm.impls.orientdb.OrientGraph;
         
 public class ServerController 
 {
 	static OrientGraph graphdb;
+    static ODatabaseDocumentTx documentDb;
 	static ServerStatus status;
 	static String orientLocation = "remote:localhost/nuzzgraph-test";
 	
@@ -112,6 +114,11 @@ public class ServerController
         {
             System.out.println("Error starting server.");
         }
+    }
+
+    public static ODatabaseDocumentTx getDocumentDB()
+    {
+        return documentDb;
     }
 }
 

@@ -2,13 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216513d3-8d4a-4568-b0c1-375d2b9723d1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.form" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.form" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.form" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.form" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IJIDEA.iml" afterPath="$PROJECT_DIR$/IJIDEA.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/libraries/gson_2_1.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/libraries/gson_2_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" />
     </list>
     <ignored path="NuzzGraph.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +36,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" line="69" class="nuzzgraph.server.core.ServerController" package="nuzzgraph.server.core">
+      <breakpoint url="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" line="85" class="nuzzgraph.server.core.NodeInstance" package="nuzzgraph.server.core">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -86,63 +90,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TabNodeRaw.form" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.form">
-          <provider selected="true" editor-type-id="ui-designer">
-            <state />
+      <file leaf-file-name="NuzzGUIHelper.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="1" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="74" column="5" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0">
+            <state line="50" column="0" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NodePropertyComponent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java">
+      <file leaf-file-name="test.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="initializer##0;class#NodePropertyComponent#0" expanded="true" />
-                <element signature="initializer##0;class#NodePropertyComponent#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JTextComponent.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/javax/swing/text/JTextComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3805" column="21" selection-start="144976" selection-end="144976" vertical-scroll-proportion="0.0">
+            <state line="14" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.44702467">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TabNodeRaw.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="189" column="81" selection-start="5412" selection-end="5412" vertical-scroll-proportion="0.65497077">
-              <folding>
-                <element signature="e#2049#2944#0" expanded="true" />
-                <element signature="e#2932#2933#0" expanded="true" />
-                <element signature="e#3001#3175#0" expanded="true" />
-                <element signature="e#3164#3165#0" expanded="true" />
-                <element signature="e#3217#3394#0" expanded="true" />
-                <element signature="e#3383#3384#0" expanded="true" />
-                <element signature="e#3434#3609#0" expanded="true" />
-                <element signature="e#3598#3599#0" expanded="true" />
-                <element signature="e#3651#3828#0" expanded="true" />
-                <element signature="e#3817#3818#0" expanded="true" />
-                <element signature="e#3871#4049#0" expanded="true" />
-                <element signature="e#4038#4039#0" expanded="true" />
-                <element signature="initializer##0;class#TabNodeRaw#0" expanded="true" />
-                <element signature="initializer##0;class#TabNodeRaw#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -161,30 +131,28 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/TestForm.form" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/TestForm.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/MainForm.form" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/MainForm.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/Test123.form" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/Test123.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.form" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.form" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.form" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.form" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormTest.groovy" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="y" value="-4" />
-    <option name="width" value="1928" />
-    <option name="height" value="1176" />
+    <option name="width" value="1920" />
+    <option name="height" value="1169" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -197,7 +165,58 @@
             <id>Abstraction issues</id>
           </State>
           <State>
+            <id>AccessibilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Annotations verifyingGroovy</id>
+          </State>
+          <State>
+            <id>Ant inspections</id>
+          </State>
+          <State>
+            <id>Assignment issues</id>
+          </State>
+          <State>
             <id>Assignment issuesGroovy</id>
+          </State>
+          <State>
+            <id>Bitwise operation issues</id>
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Class structure</id>
+          </State>
+          <State>
+            <id>Cloning issues</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>Code style issues</id>
+          </State>
+          <State>
+            <id>Compiler issues</id>
+          </State>
+          <State>
+            <id>Concurrency annotation issues</id>
+          </State>
+          <State>
+            <id>Control FlowGroovy</id>
+          </State>
+          <State>
+            <id>Control flow issues</id>
+          </State>
+          <State>
+            <id>CorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Data Flow IssuesGroovy</id>
           </State>
           <State>
             <id>Data flow issues</id>
@@ -206,7 +225,22 @@
             <id>Declaration redundancy</id>
           </State>
           <State>
+            <id>Declaration redundancyGroovy</id>
+          </State>
+          <State>
+            <id>Dependency issues</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
             <id>Error handling</id>
+          </State>
+          <State>
+            <id>Error handlingGroovy</id>
+          </State>
+          <State>
+            <id>Finalization issues</id>
           </State>
           <State>
             <id>GPath inspectionsGroovy</id>
@@ -218,22 +252,103 @@
             <id>Groovy</id>
           </State>
           <State>
+            <id>HTML</id>
+          </State>
+          <State>
+            <id>IDEA Platform Inspections</id>
+          </State>
+          <State>
+            <id>IconsUsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Imports</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Initialization issues</id>
+          </State>
+          <State>
             <id>Internationalization issues</id>
+          </State>
+          <State>
+            <id>InternationalizationLintAndroid</id>
+          </State>
+          <State>
+            <id>J2ME issues</id>
+          </State>
+          <State>
+            <id>JUnit issues</id>
+          </State>
+          <State>
+            <id>Java language level issues</id>
           </State>
           <State>
             <id>Java language level migration aids</id>
           </State>
           <State>
+            <id>JavaBeans issues</id>
+          </State>
+          <State>
             <id>Javadoc issues</id>
+          </State>
+          <State>
+            <id>Language Injection</id>
+          </State>
+          <State>
+            <id>LintAndroid</id>
+          </State>
+          <State>
+            <id>Logging issues</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Memory issues</id>
+          </State>
+          <State>
+            <id>MessagesCorrectnessLintAndroid</id>
+          </State>
+          <State>
+            <id>Method MetricsGroovy</id>
+          </State>
+          <State>
+            <id>Method metrics</id>
+          </State>
+          <State>
+            <id>Modularization issues</id>
+          </State>
+          <State>
+            <id>Naming ConventionsGroovy</id>
           </State>
           <State>
             <id>Naming conventions</id>
           </State>
           <State>
+            <id>Numeric issues</id>
+          </State>
+          <State>
+            <id>Packaging issues</id>
+          </State>
+          <State>
+            <id>Pattern Validation</id>
+          </State>
+          <State>
             <id>Performance issues</id>
           </State>
           <State>
+            <id>PerformanceLintAndroid</id>
+          </State>
+          <State>
             <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Portability issues</id>
+          </State>
+          <State>
+            <id>Potentially confusing code constructsGroovy</id>
           </State>
           <State>
             <id>Probable bugs</id>
@@ -245,7 +360,22 @@
             <id>Properties Files</id>
           </State>
           <State>
+            <id>RELAX NG</id>
+          </State>
+          <State>
             <id>Resource management issues</id>
+          </State>
+          <State>
+            <id>Security issues</id>
+          </State>
+          <State>
+            <id>SecurityLintAndroid</id>
+          </State>
+          <State>
+            <id>Serialization issues</id>
+          </State>
+          <State>
+            <id>Spelling</id>
           </State>
           <State>
             <id>TestNG</id>
@@ -257,10 +387,34 @@
             <id>Threading issuesGroovy</id>
           </State>
           <State>
+            <id>TypographyUsabilityLintAndroid</id>
+          </State>
+          <State>
             <id>UI Form Problems</id>
           </State>
           <State>
+            <id>UsabilityLintAndroid</id>
+          </State>
+          <State>
+            <id>Validity issuesGroovy</id>
+          </State>
+          <State>
+            <id>Verbose or redundant code constructs</id>
+          </State>
+          <State>
+            <id>Visibility issues</id>
+          </State>
+          <State>
             <id>XML</id>
+          </State>
+          <State>
+            <id>XPath</id>
+          </State>
+          <State>
+            <id>XSLT</id>
+          </State>
+          <State>
+            <id>toString() issues</id>
           </State>
         </expanded-state>
         <selected-state>
@@ -297,16 +451,26 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IJIDEA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="NuzzGraph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -377,72 +541,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NuzzGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuzzgraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NuzzGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuzzgraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainForm" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NuzzGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IJIDEA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -451,22 +549,29 @@
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="project.structure.last.edited" value="Libraries" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.12192724" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.VCSs.Git" />
-    <property name="project.structure.side.proportion" value="0.11655011" />
+    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="project.structure.side.proportion" value="0.11286683" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.32177034" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.DBClientMain">
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="nuzzgraph.dbclient.gui" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Scala Console.Scala Console">
     <configuration default="false" name="ServerController" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="nuzzgraph.server.core.ServerController" />
       <option name="VM_PARAMETERS" />
@@ -515,6 +620,18 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
       <option name="PROGRAM_PARAMETERS" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+      <module name="" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="consoleArgs" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -628,9 +745,19 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="2">
+    <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
+      <module name="" />
+      <setting name="vmparams4" value="-Djline.terminal=NONE" />
+      <setting name="consoleArgs" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.ServerController" />
       <item index="1" class="java.lang.String" itemvalue="Application.DBClientMain" />
+      <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -643,7 +770,7 @@
       <AnalysisUIOptions />
     </option>
   </component>
-  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false">
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="mySSHConnectionTimeout" value="30000" />
@@ -667,6 +794,15 @@
       <created>1332029937249</created>
       <updated>1332029937249</updated>
     </task>
+    <task id="LOCAL-00001" summary="More GUI work">
+      <created>1333517865718</created>
+      <updated>1333517865718</updated>
+    </task>
+    <task id="LOCAL-00002" summary="More GUI work">
+      <created>1333524199694</created>
+      <updated>1333524199694</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -690,31 +826,32 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1176" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1169" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3308351" sideWeight="0.71865743" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.6742349" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18040685" sideWeight="0.71865743" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28134254" sideWeight="0.60974306" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28134254" sideWeight="0.38650963" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.48924732" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.6742349" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18010753" sideWeight="0.69751245" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2761628" sideWeight="0.917364" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30232558" sideWeight="0.68514645" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29911155" sideWeight="0.3302998" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971373" sideWeight="0.49571276" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.6742349" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.4935484" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.49139786" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2532258" sideWeight="0.7164179" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39989293" sideWeight="0.6742349" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.71865743" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39989293" sideWeight="0.6742349" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3206067" sideWeight="0.6976744" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33168805" sideWeight="0.4678801" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33064517" sideWeight="0.69751245" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1720" height="968" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872656" sideWeight="0.4914347" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.472043" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30232558" sideWeight="0.31119248" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -755,7 +892,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="More GUI work" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -768,6 +905,7 @@
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="More GUI work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -789,119 +927,80 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/javax/swing/BoxLayout.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="29" selection-start="8906" selection-end="8906" vertical-scroll-proportion="0.7395994" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/javax/swing/JToolBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="762" column="16" selection-start="23241" selection-end="23241" vertical-scroll-proportion="0.33281973" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/LayoutManager2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="9" selection-start="1160" selection-end="1160" vertical-scroll-proportion="0.33281973" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1067" column="19" selection-start="42099" selection-end="42099" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="13" selection-start="290" selection-end="290" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.form">
       <provider selected="true" editor-type-id="ui-designer">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="10" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java">
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1966" selection-end="1966" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="11" column="11" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="75" column="0" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/javax/swing/JComponent.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="244" column="32" selection-start="8632" selection-end="8632" vertical-scroll-proportion="0.33333334">
-          <folding />
-        </state>
+        <state line="513" column="34" selection-start="18581" selection-end="18581" vertical-scroll-proportion="0.36429608" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/javax/swing/AbstractButton.java">
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1896" column="7" selection-start="67099" selection-end="67099" vertical-scroll-proportion="0.86944044">
-          <folding />
-        </state>
+        <state line="105" column="26" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.26850507" />
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/javax/swing/text/JTextComponent.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/lang/NullPointerException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3805" column="21" selection-start="144976" selection-end="144976" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="59" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.33236575" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.33284023" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1004" selection-end="1004" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="initializer##0;class#NodePropertyComponent#0" expanded="true" />
-            <element signature="initializer##0;class#NodePropertyComponent#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="5" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
+        <state line="80" column="0" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="189" column="81" selection-start="5412" selection-end="5412" vertical-scroll-proportion="0.65497077">
-          <folding>
-            <element signature="e#2049#2944#0" expanded="true" />
-            <element signature="e#2932#2933#0" expanded="true" />
-            <element signature="e#3001#3175#0" expanded="true" />
-            <element signature="e#3164#3165#0" expanded="true" />
-            <element signature="e#3217#3394#0" expanded="true" />
-            <element signature="e#3383#3384#0" expanded="true" />
-            <element signature="e#3434#3609#0" expanded="true" />
-            <element signature="e#3598#3599#0" expanded="true" />
-            <element signature="e#3651#3828#0" expanded="true" />
-            <element signature="e#3817#3818#0" expanded="true" />
-            <element signature="e#3871#4049#0" expanded="true" />
-            <element signature="e#4038#4039#0" expanded="true" />
-            <element signature="initializer##0;class#TabNodeRaw#0" expanded="true" />
-            <element signature="initializer##0;class#TabNodeRaw#0" expanded="true" />
-          </folding>
+        <state line="212" column="31" selection-start="6225" selection-end="6257" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="26" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.IdeaIC11/system/compiler/src.d12dcd81/.generated/groovyStubs/d12dcd81/IJIDEA/production/nuzzgraph/dbclient/gui/MainFormTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="40" selection-end="40" vertical-scroll-proportion="0.06626506" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="1" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="0" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.44702467">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -933,11 +1032,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>No facets are configured</last-edited>
+          <last-edited>Scala</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.11286683" />
               </list>
             </option>
           </splitter-proportions>
@@ -968,12 +1067,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>IJIDEA</last-edited>
+          <last-edited>Scala|IJIDEA</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11655011" />
-                <option value="0.5" />
+                <option value="0.11286683" />
               </list>
             </option>
           </splitter-proportions>
@@ -993,11 +1091,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>gson-2.1</last-edited>
+          <last-edited>OrientDB</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11655011" />
+                <option value="0.11286683" />
               </list>
             </option>
           </splitter-proportions>
