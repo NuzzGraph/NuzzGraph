@@ -1,11 +1,8 @@
 package nuzzgraph.server.core;
 
 import com.orientechnologies.orient.core.exception.ODatabaseException;
-import com.tinkerpop.blueprints.pgm.TransactionalGraph;
 import com.tinkerpop.blueprints.pgm.Vertex;
 import nuzzgraph.server.core.exception.ServerIntegrityException;
-
-import java.util.HashMap;
 
 /**
  * Represents a fully operable node.  This object takes time to initialize.
@@ -96,83 +93,24 @@ public class NodeInstance
         return nodeData;
     }
 
-    public Vertex getInternalData()
-    {
-        return internalData;
-    }
-
-    public void uploadDataForSave(HashMap<String, String> properties)
-    {
-        beginUploadData();
-        newNodeData.getProperties().putAll(properties);
-    }
-
     /**
-     * Initializes changed data objects if necessary
+     * Adds a property to be committed.  All properties which are to remain in this node must be added to this method
+     * Any properties not added via this method for EACH commit will be lost
+     * @param pKey
+     * @param pValue
      */
-    private void beginUploadData()
+    public void AddPropertyForCommit(String pKey, String pValue)
     {
         if (!changesMade)
         {
             changesMade = true;
-            newNodeData = new NodeDataContainer();
+            originalNodeData = new NodeDataContainer();
+
+
+            //Get all keys
+            internalData.getPropertyKeys();
+
         }
     }
-
-    /**
-     * Saves the node.  Data must be uploaded for saving first
-     * @throws Exception
-     */
-    public void saveNode() throws Exception
-    {
-        if (!changesMade)
-            return;
-
-        //Create transaction
-        ServerController.getGraphDB().startTransaction();
-
-        try
-        {
-            //Delete all properties
-            for(String propertyKey : internalData.getPropertyKeys())
-                internalData.removeProperty(propertyKey);
-
-            //Add all properties
-            for (String propertyKey : newNodeData.getProperties().keySet())
-                internalData.setProperty(propertyKey, newNodeData.getProperties().get(propertyKey));
-
-            //End Transaction
-            ServerController.getGraphDB().stopTransaction(TransactionalGraph.Conclusion.SUCCESS);
-
-            //Reset node status
-            nodeData = newNodeData;
-            newNodeData = null;
-            changesMade = false;
-        }
-        catch (Exception e)
-        {
-            ServerController.getGraphDB().stopTransaction(TransactionalGraph.Conclusion.FAILURE);
-        }
-    }
-
-    /**
-     * Returns this object in Json format.
-     * Formatted for OrientDB
-     * @return This object serialized in Json format, for OrientDB
-     */
-    /*
-    public String toJson_Orient()
-    {
-        Gson gson = new Gson();
-        //gson.toJson(new JsonElement());
-        JsonObject jo = new JsonObject();
-        jo.addProperty("@rid", getInternalData().getId().toString());
-        jo.addProperty("@class", getInternalData().getClass().getName());
-        jo.addProperty("@version", getInternalData().);
-
-
-        String j = getInternalData()
-    }
-    */
 }
 

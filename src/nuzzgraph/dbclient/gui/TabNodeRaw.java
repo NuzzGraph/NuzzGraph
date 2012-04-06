@@ -10,6 +10,7 @@ import nuzzgraph.dbclient.DBClientMain;
 import nuzzgraph.dbclient.NodeHelper;
 import nuzzgraph.server.core.NodeInstance;
 import nuzzgraph.server.core.NodePropertiesContainer;
+import nuzzgraph.server.core.ServerController;
 import nuzzgraph.server.core.exception.ServerIntegrityException;
 
 import javax.swing.*;
@@ -21,7 +22,6 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 
 /**
  * User: Mark Nuzzolilo
@@ -175,14 +175,7 @@ public class TabNodeRaw extends JComponent
     {
         try
         {
-            //Build list of properties
-            HashMap<String, String> propertiesToSave = new HashMap<String, String>();
-            for (NodePropertyComponent pComp : currentNodeProperties)
-                propertiesToSave.put(pComp.getPropertyName(), pComp.getPropertyValue());
-
-            //Save node
-            currentNodeInstance.uploadDataForSave(propertiesToSave);
-            currentNodeInstance.saveNode();
+            currentNodeInstance.
         }
         catch (Exception e)
         {
@@ -190,9 +183,9 @@ public class TabNodeRaw extends JComponent
         }
 
         changesMadeToNode = false;
+
+
     }
-
-
 
     private void doAddProperty()
     {
@@ -249,8 +242,6 @@ public class TabNodeRaw extends JComponent
         //clear out any old data from GUI
         panelNodeRawPropertiesData.removeAll();
 
-        NodeInstance n = NodeInstance.get(nodeid);
-
         //Load properties
         NodePropertiesContainer props = n.getNodeData().getProperties();
         String[] keys = new String[props.keySet().size()];
@@ -272,12 +263,12 @@ public class TabNodeRaw extends JComponent
         lblNodeId.setText("Node " + n.getId());
 
         //Set current node
-        currentNodeInstance = n;
+        NodeInstance n = NodeInstance.get(nodeid);
     }
 
     private void addPropertyGUI(String pKey, String pValue)
     {
-        final NodePropertyComponent c = new NodePropertyComponent();
+        NodePropertyComponent c = new NodePropertyComponent();
         c.initValues(pKey, pValue);
 
         //detect changes made
@@ -296,23 +287,6 @@ public class TabNodeRaw extends JComponent
         //Add the item to the screen
         gbcItem.gridy = currentNodeProperties.size() - 1;
         panelNodeRawPropertiesData.add(c.$$$getRootComponent$$$(), gbcItem);
-
-        //Add button handler for delete property
-        c.addButtonListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e)
-            {
-                try
-                {
-                    panelNodeRawPropertiesData.remove(c.$$$getRootComponent$$$());
-                    repaintGUI();
-                }
-                catch (Exception ex)
-                {
-                    DBClientMain.logText("Error deleting property: " + ex.getMessage());
-                }
-            }
-        });
 
         /*
         gbcItemLast.gridy = currentNodeProperties.size() - 1;
