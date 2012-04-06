@@ -16,6 +16,9 @@ public class NodeDataContainer
 
     public NodeDataContainer()
     {
+        properties = new NodePropertiesContainer();
+        incomingRelationships = new NodeRelationshipsContainer();
+        outgoingRelationships = new NodeRelationshipsContainer();
     }
 
     /**
@@ -36,7 +39,7 @@ public class NodeDataContainer
      * Copies this data into a new NodeDataContainer
      * @param destination
      */
-    public void CopyTo(NodeDataContainer destination)
+    public void copyTo(NodeDataContainer destination)
     {
         destination.properties = new NodePropertiesContainer();
         destination.properties.putAll(properties);

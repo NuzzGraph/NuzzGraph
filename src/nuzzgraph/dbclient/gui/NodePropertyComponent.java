@@ -9,6 +9,7 @@ import javax.swing.*;
 import javax.swing.event.DocumentEvent;
 import javax.swing.event.DocumentListener;
 import java.awt.*;
+import java.awt.event.ActionListener;
 
 /**
  * User: Mark Nuzzolilo
@@ -66,6 +67,21 @@ public class NodePropertyComponent extends JComponent
 
         txtValue.getDocument().addDocumentListener(listener);
         txtName.getDocument().addDocumentListener(listener);
+    }
+
+    public String getPropertyName()
+    {
+        return txtName.getText();
+    }
+
+    public String getPropertyValue()
+    {
+        return txtValue.getText();
+    }
+
+    public void addButtonListener(ActionListener l)
+    {
+        bDelete.addActionListener(l);
     }
 
     {
