@@ -7,8 +7,15 @@
  * Time: 11:00 PM
  */
 
-object hello {
-  def main(args: Array[String]) {
-    println("hello: " + args);
-  }
+object hello
+{
+    def main(args: Array[String])
+    {
+        println("hello: " + args);
+        val a = 1;
+
+        println(a);
+
+
+    }
 }

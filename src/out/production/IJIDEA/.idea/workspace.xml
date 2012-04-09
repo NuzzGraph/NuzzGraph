@@ -2,17 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216513d3-8d4a-4568-b0c1-375d2b9723d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_gui.java" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\DBClientMain.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\NodeHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainMenuBar.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\NuzzGUIHelper.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\TabNodeRaw.form" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\TabNodeRaw.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainForm.form" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormGui.form" />
+      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainForm.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IJIDEA.iml" afterPath="$PROJECT_DIR$/IJIDEA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/libraries/gson_2_1.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/libraries/gson_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/vcs.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
     </list>
     <ignored path="NuzzGraph.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,6 +45,19 @@
   <component name="DebuggerManager">
     <line_breakpoints>
       <breakpoint url="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" line="85" class="nuzzgraph.server.core.NodeInstance" package="nuzzgraph.server.core">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="false" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" line="13" class="hello$" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -90,28 +111,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="NuzzGUIHelper.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.java">
+      <file leaf-file-name="DBClientMain.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="1" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0">
+            <state line="17" column="21" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
+      <file leaf-file-name="Container.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/Container.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0">
+            <state line="1085" column="0" selection-start="42930" selection-end="42930" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test.scala">
+      <file leaf-file-name="MainForm_gui.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.44702467">
+            <state line="43" column="27" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7922438">
+              <folding>
+                <element signature="method#$$$setupUI$$$#0;class#MainForm_gui#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TabNodeRaw.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="6" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainForm.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="39" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -131,28 +172,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/Test123.form" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/Test123.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.form" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.form" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.form" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormTest.groovy" />
         <option value="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient_scala/DBClientMain.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.form" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_scala.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_gui.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1169" />
+    <option name="x" value="-4" />
+    <option name="y" value="-4" />
+    <option name="width" value="1928" />
+    <option name="height" value="1176" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -451,20 +494,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NuzzGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="IJIDEA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -540,6 +569,72 @@
               <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TabNodeRaw_gui" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MainForm_gui" />
+              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="IJIDEA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -548,30 +643,30 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.12192724" />
-    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.main.proportions" value="0.22480634" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="preferences.sourceCode.Java" />
     <property name="project.structure.side.proportion" value="0.11286683" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.splitter.details.proportions" value="0.32177034" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.32177034" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="nuzzgraph.dbclient.gui" />
     </key>
   </component>
-  <component name="RunManager" selected="Scala Console.Scala Console">
+  <component name="RunManager" selected="Application.DBClientMain">
     <configuration default="false" name="ServerController" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="nuzzgraph.server.core.ServerController" />
       <option name="VM_PARAMETERS" />
@@ -594,6 +689,26 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="hello" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="hello" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="IJIDEA" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <ConfigurationWrapper RunnerId="Debug" />
+      <method />
+    </configuration>
     <configuration default="false" name="DBClientMain" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="nuzzgraph.dbclient.DBClientMain" />
       <option name="VM_PARAMETERS" />
@@ -611,9 +726,7 @@
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
-      <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -651,6 +764,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -676,24 +807,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -754,10 +867,11 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.ServerController" />
-      <item index="1" class="java.lang.String" itemvalue="Application.DBClientMain" />
-      <item index="2" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="2" class="java.lang.String" itemvalue="Application.hello" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DBClientMain" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -826,31 +940,31 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1169" extended-state="0" />
+    <frame x="-4" y="-4" width="1928" height="1176" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33020833" sideWeight="0.7247353" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.48924732" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.6742349" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18010753" sideWeight="0.69751245" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17916666" sideWeight="0.7247353" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32723773" sideWeight="0.48125" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2761628" sideWeight="0.917364" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30232558" sideWeight="0.68514645" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27526468" sideWeight="0.70104164" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27526468" sideWeight="0.2953125" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206067" sideWeight="0.20930232" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.4935484" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30028874" sideWeight="0.384375" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.49139786" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2532258" sideWeight="0.7164179" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39989293" sideWeight="0.6742349" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3206067" sideWeight="0.6976744" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31927082" sideWeight="0.7247353" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33168805" sideWeight="0.4678801" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33064517" sideWeight="0.69751245" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1720" height="968" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3283582" sideWeight="0.472043" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow to" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Analyze Dataflow from" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30232558" sideWeight="0.31119248" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -927,41 +1041,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="10" selection-start="418" selection-end="418" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="11" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="0" selection-start="1991" selection-end="1991" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="513" column="34" selection-start="18581" selection-end="18581" vertical-scroll-proportion="0.36429608" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="26" selection-start="2755" selection-end="2755" vertical-scroll-proportion="0.26850507" />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/lang/NullPointerException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1396" selection-end="1396" vertical-scroll-proportion="0.33236575" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="59" column="0" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.33284023" />
@@ -972,35 +1051,97 @@
         <state line="80" column="0" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="212" column="31" selection-start="6225" selection-end="6257" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="26" selection-start="1452" selection-end="1452" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.IdeaIC11/system/compiler/src.d12dcd81/.generated/groovyStubs/d12dcd81/IJIDEA/production/nuzzgraph/dbclient/gui/MainFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="7" selection-start="40" selection-end="40" vertical-scroll-proportion="0.06626506" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="1" selection-start="446" selection-end="446" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1071" selection-end="1071" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="158" selection-end="158" vertical-scroll-proportion="0.44702467">
+        <state line="16" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="42" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="17" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormGui.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRawGui.form">
+      <provider selected="true" editor-type-id="ui-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="5" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="6" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/Container.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1085" column="0" selection-start="42930" selection-end="42930" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="21" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="27" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7922438">
+          <folding>
+            <element signature="method#$$$setupUI$$$#0;class#MainForm_gui#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1091,11 +1232,22 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>OrientDB</last-edited>
+          <last-edited>Scala</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.11286683" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
               </list>
             </option>
           </splitter-proportions>
