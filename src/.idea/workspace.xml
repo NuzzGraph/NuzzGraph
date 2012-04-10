@@ -2,25 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216513d3-8d4a-4568-b0c1-375d2b9723d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_gui.java" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\DBClientMain.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\NodeHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainMenuBar.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\NuzzGUIHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\TabNodeRaw.form" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\TabNodeRaw.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainForm.form" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormGui.form" />
-      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainForm.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
     </list>
     <ignored path="NuzzGraph.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -124,7 +106,25 @@
         <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/Container.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="1085" column="0" selection-start="42930" selection-end="42930" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="e#0#190010#0" expanded="false" />
+                <element signature="imports" expanded="false" />
+                <element signature="e#2582#2593#0" expanded="false" />
+                <element signature="e#8981#9178#0" expanded="false" />
+                <element signature="e#9167#9168#0" expanded="false" />
+                <element signature="e#99899#100062#0" expanded="false" />
+                <element signature="e#100047#100048#0" expanded="false" />
+                <element signature="e#111742#112260#0" expanded="false" />
+                <element signature="e#111988#112218#0" expanded="false" />
+                <element signature="e#112191#112192#0" expanded="false" />
+                <element signature="e#112249#112250#0" expanded="false" />
+                <element signature="e#179076#179450#0" expanded="false" />
+                <element signature="e#179435#179436#0" expanded="false" />
+                <element signature="e#179641#179883#0" expanded="false" />
+                <element signature="e#179868#179869#0" expanded="false" />
+                <element signature="e#182426#183318#0" expanded="false" />
+                <element signature="e#183295#183296#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,7 +132,7 @@
       <file leaf-file-name="MainForm_gui.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="18" selection-start="648" selection-end="648" vertical-scroll-proportion="0.33518004">
+            <state line="35" column="5" selection-start="756" selection-end="756" vertical-scroll-proportion="0.36565098">
               <folding>
                 <element signature="method#$$$setupUI$$$#0;class#MainForm_gui#0" expanded="true" />
               </folding>
@@ -1125,7 +1125,25 @@
     <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/Container.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1085" column="0" selection-start="42930" selection-end="42930" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#0#190010#0" expanded="false" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#2582#2593#0" expanded="false" />
+            <element signature="e#8981#9178#0" expanded="false" />
+            <element signature="e#9167#9168#0" expanded="false" />
+            <element signature="e#99899#100062#0" expanded="false" />
+            <element signature="e#100047#100048#0" expanded="false" />
+            <element signature="e#111742#112260#0" expanded="false" />
+            <element signature="e#111988#112218#0" expanded="false" />
+            <element signature="e#112191#112192#0" expanded="false" />
+            <element signature="e#112249#112250#0" expanded="false" />
+            <element signature="e#179076#179450#0" expanded="false" />
+            <element signature="e#179435#179436#0" expanded="false" />
+            <element signature="e#179641#179883#0" expanded="false" />
+            <element signature="e#179868#179869#0" expanded="false" />
+            <element signature="e#182426#183318#0" expanded="false" />
+            <element signature="e#183295#183296#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1138,7 +1156,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="18" selection-start="648" selection-end="648" vertical-scroll-proportion="0.33518004">
+        <state line="35" column="5" selection-start="756" selection-end="756" vertical-scroll-proportion="0.36565098">
           <folding>
             <element signature="method#$$$setupUI$$$#0;class#MainForm_gui#0" expanded="true" />
           </folding>
