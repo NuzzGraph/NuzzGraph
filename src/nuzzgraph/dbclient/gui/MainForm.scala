@@ -3,25 +3,6 @@ package nuzzgraph.dbclient.gui
 import com.tinkerpop.blueprints.pgm.Vertex
 import javax.swing._
 
-/**
- * User: Mark Nuzzolilo
- * Date: 3/20/12
- * Time: 6:46 PM
- */
-/*
-object MainForm
-{
-  def getMainForm: MainForm = {
-    return mainForm
-  }
-
-  def setMainForm(form: MainForm): Unit = {
-    mainForm = form
-  }
-
-  private var mainForm: MainForm = null
-}
-*/
 class MainForm(gui : MainForm_gui) extends JFrame
 {
   gui.add(gui.panelMain)

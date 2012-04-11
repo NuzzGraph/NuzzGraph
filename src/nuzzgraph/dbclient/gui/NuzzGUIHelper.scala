@@ -4,9 +4,6 @@ import javax.swing._
 import java.awt._
 
 /**
- * User: Mark Nuzzolilo
- * Date: 4/3/12
- * Time: 10:59 PM
  */
 object NuzzGUIHelper {
   def SetScrollbarToEnd(scrollPane: JScrollPane): Unit = {
