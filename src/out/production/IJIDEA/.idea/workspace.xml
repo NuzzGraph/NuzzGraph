@@ -2,25 +2,1003 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="216513d3-8d4a-4568-b0c1-375d2b9723d1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scala_compiler.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_gui.java" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\DBClientMain.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\NodeHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainMenuBar.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\NuzzGUIHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\TabNodeRaw.form" afterPath="" />
-      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\TabNodeRaw.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainForm.form" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormGui.form" />
-      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\gui\MainForm.java" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/arrow-down.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/arrow-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/class.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/class_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/class_to_object_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/constructorsbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/defbg-blue.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/defbg-green.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/filter_box_left.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/filter_box_left2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/filter_box_right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/filterbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/filterboxbarbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/filterboxbarbg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/filterboxbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/fullcommenttopbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/navigation-li-a.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/navigation-li.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/object.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/object_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/object_to_class_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/object_to_trait_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/ownderbg2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/ownerbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/ownerbg2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/package.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/package_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/packagesbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/remove.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/selected-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/selected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/selected2-right.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/selected2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/signaturebg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/signaturebg2.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/trait.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/trait_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/trait_to_object_big.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/typebg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/unselected.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/valuemembersbg.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/bluedot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/bluedots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/bluedotsel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/cyandot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/cyandots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/cyandotsel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/dots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/graydot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/graydots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/graydotsel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/greendot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/greendots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/greendotsel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/purpledot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/purpledots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/purpledotsel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/reddot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/reddots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/reddotsel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/yellowdot.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/yellowdots.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/images/yellowdotsel.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/DeprecatedMatchers.saveme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/DeprecatedShouldMatchers.saveme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/NOTICE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-#.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-a.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-b.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-c.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-d.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-e.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-f.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-g.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-h.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-i.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-j.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-k.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-l.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-m.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-n.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-o.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-p.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-r.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-s.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-t.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-u.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-v.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/index/index-w.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/jquery-ui.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/jquery.layout.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/ref-index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/scheduler.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/template.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/lib/tools.tooltip.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/AbstractSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Assertions$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Assertions$Equalizer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Assertions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/BeforeAndAfter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/BeforeAndAfterAll.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/BeforeAndAfterAllFunctions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/BeforeAndAfterEach.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/BeforeAndAfterEachFunctions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Distributor$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Distributor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/DuplicateTestNameException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/EitherValues$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/EitherValues$LeftValuable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/EitherValues$RightValuable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/EitherValues.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FailureOf$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FailureOf.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FeatureSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Filter$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Filter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$BehaviorWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$IgnoreVerbString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$IgnoreVerbStringTaggedAs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$IgnoreWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$InAndIgnoreMethods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$InAndIgnoreMethodsAfterTaggedAs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$ItVerbString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$ItVerbStringTaggedAs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec$ItWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FlatSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FreeSpec$FreeSpecStringWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FreeSpec$ResultOfTaggedAsInvocationOnString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FreeSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FunSpec$ItWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FunSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/FunSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/GivenWhenThen$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/GivenWhenThen.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Informer.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Inside$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Inside.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/ModifiableMessage.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/NonImplicitAssertions$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/NonImplicitAssertions.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/NotAllowedException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/OneInstancePerTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/OptionValues$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/OptionValues$Valuable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/OptionValues.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/ParallelTestExecution.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PartialFunctionValues$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PartialFunctionValues$Valuable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PartialFunctionValues.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PendingNothing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PrivateMethodTester$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PrivateMethodTester$Invocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PrivateMethodTester$Invoker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PrivateMethodTester$PrivateMethod$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PrivateMethodTester$PrivateMethod.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PrivateMethodTester.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/PropSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Reporter$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Reporter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Rerunner$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Rerunner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/ResourcefulReporter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/SequentialNestedSuiteExecution.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/SeveredStackTraces.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Shell.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Spec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Specs$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Specs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/StackDepth.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/StackDepthException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Stopper$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Stopper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Suite$NoArgTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Suite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Suites$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Suites.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/SuperSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Tag$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Tag.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/TestFailedException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/TestPendingException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/TestRegistrationClosedException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/Tracker.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/WordSpec$AfterWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/WordSpec$ResultOfTaggedAsInvocationOnString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/WordSpec$WordSpecStringWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/WordSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/concurrent/Conductor.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/concurrent/ConductorFixture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/concurrent/ConductorMethods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/concurrent/ConductorMultiFixture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/concurrent/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/Event.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/Formatter.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/IndentedText.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/InfoProvided$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/InfoProvided.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/MotionToSuppress$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/NameInfo$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/NameInfo.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/Ordinal.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunAborted$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunAborted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunCompleted$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunCompleted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunStarting$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunStarting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunStopped$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/RunStopped.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/SuiteAborted$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/SuiteAborted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/SuiteCompleted$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/SuiteCompleted.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/SuiteStarting$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/SuiteStarting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/Summary$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/Summary.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestFailed$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestFailed.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestIgnored$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestIgnored.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestPending$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestPending.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestStarting$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestStarting.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestSucceeded$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/TestSucceeded.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/events/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/ConfigMapFixture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FeatureSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixtureFeatureSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixtureFlatSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixtureFreeSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixtureFunSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixturePropSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixtureSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixtureSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FixtureWordSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$BehaviorWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$IgnoreVerbString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$IgnoreVerbStringTaggedAs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$IgnoreWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$InAndIgnoreMethods.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$InAndIgnoreMethodsAfterTaggedAs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$ItVerbString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$ItVerbStringTaggedAs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec$ItWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FlatSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FreeSpec$FreeSpecStringWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FreeSpec$ResultOfTaggedAsInvocationOnString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FreeSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FunSpec$ItWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FunSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/FunSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/MultipleFixtureFeatureSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/MultipleFixtureFlatSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/MultipleFixtureFreeSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/MultipleFixtureFunSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/MultipleFixturePropSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/MultipleFixtureSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/MultipleFixtureWordSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/PropSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/Suite$OneArgTest.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/Suite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/WordSpec$AfterWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/WordSpec$ResultOfTaggedAsInvocationOnString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/WordSpec$WordSpecStringWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/WordSpec.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/fixture/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/AssertionsForJUnit$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/AssertionsForJUnit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/JUnit3Suite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/JUnitRunner.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/JUnitSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/JUnitTestFailedError.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/JUnitWrapperSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/MustMatchersForJUnit$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/MustMatchersForJUnit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/ShouldMatchersForJUnit$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/ShouldMatchersForJUnit.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/junit/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/BeMatcher$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/BeMatcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/BePropertyMatchResult$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/BePropertyMatchResult.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/BePropertyMatcher$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/BePropertyMatcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/HavePropertyMatchResult$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/HavePropertyMatchResult.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/HavePropertyMatcher$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/HavePropertyMatcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MatchResult$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MatchResult.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matcher$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matcher.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$AWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$AnWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$BeWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$BytePlusOrMinusWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ByteTolerance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ContainWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$DoublePlusOrMinusWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$DoubleTolerance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$EndWithWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$FloatPlusOrMinusWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$FloatTolerance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$FullyMatchWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$HavePropertyMatcherGenerator.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$HaveWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$IncludeWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$IntPlusOrMinusWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$IntTolerance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$KeyWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$LengthWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$LengthWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$LongPlusOrMinusWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$LongTolerance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndBeWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndContainWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndEndWithWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndFullyMatchWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndHaveWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndIncludeWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndNotWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$AndStartWithWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrBeWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrContainWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrEndWithWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrFullyMatchWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrHaveWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrIncludeWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrNotWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper$OrStartWithWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$MatcherWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$NotWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$RegexWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfAWordToBePropertyMatcherApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfAWordToSymbolApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfAnWordToBePropertyMatcherApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfAnWordToSymbolApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfBeWordForAnyRef.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfContainWordForJavaMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfContainWordForMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfElementWordApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfEndWithWordForString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfEvaluatingApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfFullyMatchWordForString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfGreaterThanComparison.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfGreaterThanOrEqualToComparison.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForArray.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForJavaCollection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForJavaList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForJavaMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForLengthWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForSeq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForSizeWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfHaveWordForTraversable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfIncludeWordForString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfKeyWordApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfLengthWordApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfLessThanComparison.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfLessThanOrEqualToComparison.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForAnyRef.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForArray.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForByte.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForDouble.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForFloat.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForInt.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForJavaCollection.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForJavaList.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForJavaMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForLengthWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForLong.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForMap.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForSeq.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForShort.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForSizeWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfNotWordForTraversable.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfProduceInvocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfRegexWordApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfSizeWordApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfStartWithWordForString.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfTheSameInstanceAsApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfTripleEqualsApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ResultOfValueWordApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ShortPlusOrMinusWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ShortTolerance.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$SizeWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$SizeWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$StartWithWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$TheSameInstanceAsPhrase.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers$ValueWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/Matchers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$AnyMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$AnyRefMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$ArrayMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$ByteMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$DoubleMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$EvaluatingApplicationMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$FloatMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$IntMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$JavaCollectionMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$JavaListMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$JavaMapMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$LengthMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$ListMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$LongMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$MapMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$SeqMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$ShortMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$SizeMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$StringMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers$TraversableMustWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/MustMatchers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$AnyRefShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$AnyShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$ArrayShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$ByteShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$DoubleShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$EvaluatingApplicationShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$FloatShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$IntShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$JavaCollectionShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$JavaListShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$JavaMapShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$LengthShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$ListShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$LongShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$MapShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$SeqShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$ShortShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$SizeShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$StringShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers$TraversableShouldWrapper.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/ShouldMatchers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/matchers/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/EasyMockSugar$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/EasyMockSugar$MockObjects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/EasyMockSugar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/JMockCycle.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/JMockCycleFixture.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/JMockExpectations.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/MockitoSugar$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/MockitoSugar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/mock/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Checkers$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Checkers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$MaxDiscarded.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$MaxSize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$MinSize.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$MinSuccessful.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$PropertyCheckConfig.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$PropertyCheckConfigParam.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration$Workers.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Configuration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/DiscardedEvaluationException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/GeneratorDrivenPropertyCheckFailedException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/GeneratorDrivenPropertyChecks$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/GeneratorDrivenPropertyChecks$ConfiguredPropertyCheck.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/GeneratorDrivenPropertyChecks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/PropertyCheckFailedException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/PropertyChecks$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/PropertyChecks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/PropertyTestFailedException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableDrivenPropertyCheckFailedException.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableDrivenPropertyChecks$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableDrivenPropertyChecks.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor1$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor1.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor10$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor10.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor11$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor11.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor12$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor12.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor13$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor13.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor14$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor14.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor15$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor15.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor16$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor16.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor17$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor17.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor18$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor18.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor19$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor19.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor2$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor20$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor20.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor21$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor21.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor22$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor22.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor3$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor4$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor4.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor5$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor5.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor6$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor6.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor7$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor7.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor8$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor8.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor9$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/TableFor9.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Tables$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Tables$Table$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/Whenever.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/prop/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/testng/TestNGSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/testng/TestNGWrapperSuite.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/testng/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/tools/Runner$.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/tools/ScalaTestAntTask.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/tools/ScalaTestFramework.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/tools/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/BehaveWord.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/CanVerb$StringCanWrapperForVerb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/CanVerb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/MustVerb$StringMustWrapperForVerb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/MustVerb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/ResultOfAfterWordApplication.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/ResultOfStringPassedToVerb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/ResultOfTaggedAsInvocation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/ShouldVerb$StringShouldWrapperForVerb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/ShouldVerb.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/StringVerbBlockRegistration.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/org/scalatest/verb/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/doc/package.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/java/org/scalatestexamples/easymock/ClassTested.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/java/org/scalatestexamples/easymock/Collaborator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/java/org/scalatestexamples/easymock/ThrowableEquals.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/FeatureSpecStackBehaviors.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/FlatStackBehaviors.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/ParallelTestExecutionExampleSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/SharedTestExampleSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackCanWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackFixtureCreationMethods.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackMustWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackShorthandFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackShouldWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/StackSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/TVFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/WordStackBehaviors.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/concurrent/ConductorExamples.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/easymock/EasyMockExampleFixtureFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/easymock/EasyMockExampleFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/easymock/EasyMockExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/featurespec/ArithmeticFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/featurespec/GivenWhenThenArithmeticFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/featurespec/InfoArithmeticFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/featurespec/PendingArithmeticFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/featurespec/PendingGivenWhenThenArithmeticSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/fixture/MultiFixtureFunSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/fixture/TVFixtureFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/fixture/funsuite/WithTempFileExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/fixture/funsuite/WithTempFileFromConfigMapExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/fixture/suite/CaseClassFixtureSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/fixture/suite/TupleFixtureSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/funsuite/BeforeAndAfterEachExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/funsuite/CreateFixtureExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/funsuite/ExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/funsuite/ImmutableSharedFixtureExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/funsuite/WithFixtureExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/funsuite/WithTempFileExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/helpers/Stack.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/jmock/JMockExampleFixtureFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/junit/ErrorJUnitSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/junit/JUnit3ExampleSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/junit/JUnitTestCaseSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/matchers/ShouldStackFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/matchers/ShouldStackSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/scalaarchetypesimple/ScalaTestExamples.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/examples/scala/org/scalatestexamples/testng/ErrorTestNGSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/generators/scala/GenDeprecatedShouldMatchersTests.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/generators/scala/GenFunSuiteN.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/generators/scala/GenGen.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/generators/scala/GenMustMatchers.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/generators/scala/GenTable.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/html/addl.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/html/template.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/java/org/scalatest/Ignore.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/java/org/scalatest/TagAnnotation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/java/org/scalatest/WrapWith.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/resources/org/scalatest/ScalaTestBundle.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/AbstractSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Assertions.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/BeforeAndAfter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/BeforeAndAfterAll.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/BeforeAndAfterAllFunctions.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/BeforeAndAfterEach.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/BeforeAndAfterEachFunctions.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/CatchReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/ConcurrentInformer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/DispatchReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Distributor.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/DuplicateTestNameException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/EitherValues.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Engine.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Eventually.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/FailureMessages.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/FailureOf.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/FeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Filter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/FlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/FreeSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/FunSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/FunSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/GivenWhenThen.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Informer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Inside.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/MessageRecordingInformer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/ModifiableMessage.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/NodeFamily.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/NonImplicitAssertions.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/NotAllowedException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/OneInstancePerTest.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/OptionValues.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/ParallelTestExecution.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/PartialFunctionValues.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/PendingNothing.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/PrivateMethodTester.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/PropSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Reporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Rerunner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/ResourcefulReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Resources.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/SequentialNestedSuiteExecution.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/SeveredStackTraces.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Shell.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Spec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Specs.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/StackDepth.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/StackDepthException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Stopper.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Suite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/SuiteRerunner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Suites.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Tag.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/TestFailedException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/TestPendingException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/TestRegistrationClosedException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/TestRerunner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/Tracker.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/WordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/concurrent/Conductor.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/concurrent/ConductorFixture.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/concurrent/ConductorMethods.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/concurrent/ConductorMultiFixture.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/concurrent/PimpedReadWriteLock.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/concurrent/PimpedThreadGroup.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/concurrent/TestThreadsStartingCounter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/events/Event.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/events/Formatter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/events/NameInfo.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/events/Ordinal.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/events/Summary.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/ConfigMapFixture.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureFreeSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureFunSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureNodeFamily.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixturePropSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FixtureWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FreeSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FunSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/FunSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/MultipleFixtureFeatureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/MultipleFixtureFlatSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/MultipleFixtureFreeSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/MultipleFixtureFunSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/MultipleFixturePropSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/MultipleFixtureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/MultipleFixtureWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/NoArgTestWrapper.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/PropSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/Suite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/fixture/WordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/AssertionsForJUnit.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/JUnit3ComfortSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/JUnit3Suite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/JUnitRunner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/JUnitSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/JUnitTestFailedError.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/JUnitWrapperSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/MyRunListener.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/RunNotifierReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/junit/ShouldMatchersForJUnit.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/BeMatcher.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/BePropertyMatchResult.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/BePropertyMatcher.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/HavePropertyMatchResult.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/HavePropertyMatcher.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/MatchResult.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/Matcher.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/Matchers.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/matchers/ShouldMatchers.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/mock/EasyMockSugar.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/mock/JMockCycle.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/mock/JMockCycleFixture.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/mock/JMockExpectations.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/mock/MockitoSugar.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/package.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/Checkers.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/Configuration.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/DiscardedEvaluationException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/GeneratorDrivenPropertyCheckFailedException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/PropertyCheckFailedException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/PropertyChecks.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/PropertyTestFailedException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/TableDrivenPropertyCheckFailedException.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/prop/Whenever.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/testng/SingleTestAnnotationTransformer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/testng/TestNGSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/testng/TestNGWrapperSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/AboutJDialog.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/ColorBar.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/ConcurrentDistributor.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/DiscoverySuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/DistributedTestRunnerSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/EventHolder.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/EventToPresent.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/FileReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/FilterReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/HtmlReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/IconEmbellishedListCellRenderer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/NarrowJOptionPane.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/PrintReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/ReporterConfigParam.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/ReporterConfiguration.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/ReporterFactory.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/RunDoneListener.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/Runner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/RunnerGUI.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/RunnerGUIState.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/RunnerJFrame.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/ScalaTestAntTask.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/ScalaTestFramework.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/SimpleStopper.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/StandardErrReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/StandardOutReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/StatusJPanel.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/StringReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/SuiteDiscoveryHelper.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/SuiteRunner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/tools/XmlReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/BehaveWord.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/CanVerb.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/MustVerb.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/ResultOfAfterWordApplication.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/ResultOfStringPassedToVerb.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/ResultOfTaggedAsInvocation.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/ShouldVerb.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/main/scala/org/scalatest/verb/StringVerbBlockRegistration.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/FastAsLight.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/HasField.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/HasFieldAndGetMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/HasFieldAndMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/HasFieldMethodAndGetMethod.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/PackageAccessConstructorSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/SlowAsMolasses.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/junit/JBitterSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/junit/JHappySuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/junit/JUnit3TestCase.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/junit/JUnit3TestSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/java/org/scalatest/tools/PackageAccessSuite.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/AssertionsSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/BeforeAndAfterFunctionsSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/BeforeAndAfterSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/BeforeNAfterSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/BigSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/BigSuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/CatchReporterSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/ClueSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/ConcurrentInformerSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/EasySuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/EitherValuesSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/EmptyMocks.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/EngineSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/EventuallySpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/ExamplesSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FailureMessagesSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FailureOfSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FeatureSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FileMocks.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FilterSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FlatSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FreeSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FruitMocks.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FunSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FunSpecSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FunSuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/FunSuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/GivenWhenThenSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/InfoInsideTestFiredAfterTestProp.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/InformerSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/InsideSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/NonImplicitAssertionsSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/OneInstancePerTestSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/OperatorNames.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/OptionValuesSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/PartialFunctionValuesSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/PrivateMethodTesterSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/PropSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/ReturnsNormallyThrowsAssertion.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SeveredStackTracesFailureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SeveredStackTracesSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SharedHelpers.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/ShellSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SpecSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/StackDepthExceptionSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/StringFixture.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/StubReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SuiteCompletedStatusReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SuiteExamples.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SuiteProp.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/SuitesSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/TestFailedExceptionSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/TestFailedExceptionWithImportSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/UseAsFunctionSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/VariousWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/WordSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/concurrent/ConductorFixtureSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/concurrent/ConductorMethodsSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/concurrent/ConductorSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/concurrent/DoOver.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/concurrent/DoOverSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/concurrent/TestThreadsStartingCounterSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/events/EventSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/events/OrdinalSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/ConfigMapFixtureSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FeatureSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixtureFeatureSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixtureFlatSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixtureFreeSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixtureFunSuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixturePropSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixtureSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixtureSuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FixtureWordSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FlatSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FreeSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FunSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/FunSuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/PropSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/SuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/fixture/WordSpecSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/jmock/SuiteExpectations.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/jmock/TestReporter.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/AssertionsForJUnitWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/JUnit3SuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/JUnitRunnerSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/JUnitSuiteSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/JUnitSuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/JUnitTestFailedErrorSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/JUnitWrapperSuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/RunNotifierSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/ShouldMatchersForJUnitWordSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/helpers/TestWasCalledSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/junit/junit4helpers/TestWasCalledSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/BookPropertyMatchers.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/CustomMatcherSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/MatchResultSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/PropertyFunSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldAndMustSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBeASymbolSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBeAnSymbolSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBeAnySpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBeMatcherSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBeNullSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBePropertyMatcherSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBeSymbolSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBeTripleEqualsSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldBehaveLikeSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldContainElementSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldContainKeySpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldContainValueSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldEndWithRegexSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldEndWithSubstringSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldEqualSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldFileBePropertyMatcherSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldFullyMatchSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldHavePropertiesSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldIncludeRegexSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldIncludeSubstringSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldLengthSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldLogicalMatcherExprSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldMatcherSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldOrderedSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldPlusOrMinusSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldSameInstanceAsSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldSizeSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldStartWithRegexSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldStartWithSubstringSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/matchers/ShouldThrowSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/mock/EasyMockSugarSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/mock/JMockCycleSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/CheckersSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/ConfigurationSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/HelperSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/PropertyCheckConfigParamSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/PropertyCheckConfigSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/PropertyCheckFailedExceptionSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/TableDrivenPropertyCheckFailedExceptionSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/prop/TableStyleSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/testng/TestNGSuiteGroupsSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/testng/TestNGSuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/testng/TestNGWrapperSuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/testng/example/ExampleTestNGSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/testng/example/ExampleTestNGWrapperSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/testng/example/testngsuite.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/DiscoverySuiteSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/PrintReporterSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/RunnerSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/ScalaTestFrameworkSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/ScalaTestRunnerSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/SomeApiClass.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/SomeApiClassRunner.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/SomeApiSubClass.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/StringReporterSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/SuiteDiscoveryHelperSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/tools/XmlReporterSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lib/scalatest-1.7.1/src/test/scala/org/scalatest/verb/CanVerbSuite.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/scalatest_1_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/test/DBClientMain_test.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/JettyServer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeCollection.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeController.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeFunctionsContainer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeReference.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeSchema.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/RelationshipTypeContainer.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\dbclient\test.scala" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\JettyServer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeCollection.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeDataContainer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeFunctionsContainer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeInstance.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodePropertiesContainer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeReference.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeRelationshipsContainer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\NodeSchema.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\RelationshipTypeContainer.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\ServerController.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\ServerHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\ServerStatus.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\exception\ServerIntegrityException.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\RelationshipType.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/RelationshipType.scala" />
+      <change type="MOVED" beforePath="C:\dev\nuzzgraph\IJIDEA\src\nuzzgraph\server\core\exception\NodeFunction.java" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/exception/NodeFunction.scala" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/IJIDEA.iml" afterPath="$PROJECT_DIR$/IJIDEA.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala" afterPath="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" />
     </list>
     <ignored path="NuzzGraph.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,34 +1021,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.java" line="85" class="nuzzgraph.server.core.NodeInstance" package="nuzzgraph.server.core">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" line="13" class="hello$" package="">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="false" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
     <breakpoint_any>
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -111,48 +1061,48 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBClientMain.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala">
+      <file leaf-file-name="RelationshipType.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/RelationshipType.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="21" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="8" column="6" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Container.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/Container.java">
+      <file leaf-file-name="NodeFunction.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/exception/NodeFunction.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1085" column="0" selection-start="42930" selection-end="42930" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.36946565">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainForm_gui.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java">
+      <file leaf-file-name="ServerController.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="43" column="27" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7922438">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerHandler.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="method#$$$setupUI$$$#0;class#MainForm_gui#0" expanded="true" />
+                <element signature="n#!!doc" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TabNodeRaw.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala">
+      <file leaf-file-name="ServerStatus.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="6" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainForm.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -172,22 +1122,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormTest.groovy" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/test.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient_scala/DBClientMain.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.form" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_scala.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_gui.java" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/JettyServer.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeCollection.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeController.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeFunctionsContainer.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeReference.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeSchema.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/RelationshipType.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/RelationshipTypeContainer.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala" />
       </list>
     </option>
   </component>
@@ -195,7 +1145,7 @@
     <option name="x" value="-4" />
     <option name="y" value="-4" />
     <option name="width" value="1928" />
-    <option name="height" value="1176" />
+    <option name="height" value="1156" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -475,7 +1425,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -500,6 +1450,10 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="NuzzGraph" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -544,7 +1498,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NodeInstance.scala" />
+              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="exception" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="dbclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -568,58 +1588,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="gui" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TabNodeRaw_gui" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NuzzGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuzzgraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="NuzzGraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="nuzzgraph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dbclient" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MainForm_gui" />
-              <option name="myItemType" value="com.intellij.uiDesigner.projectView.FormNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -643,15 +1611,15 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Groovy JUnit" />
     <property name="OverrideImplement.combined" value="true" />
-    <property name="project.structure.proportion" value="0.12192724" />
+    <property name="project.structure.proportion" value="0.19497909" />
     <property name="options.splitter.main.proportions" value="0.22480634" />
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="preferences.sourceCode.Java" />
-    <property name="project.structure.side.proportion" value="0.11286683" />
+    <property name="project.structure.side.proportion" value="0.204023" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.includeInheritedMembers" value="false" />
@@ -858,6 +1826,23 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="ScalaTestRunConfiguration" factoryName="ScalaTest">
+      <module name="" />
+      <setting name="path" value="" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="false" name="Scala Console" type="ScalaScriptConsoleRunConfiguration" factoryName="Scala Console">
       <module name="" />
       <setting name="vmparams4" value="-Djline.terminal=NONE" />
@@ -940,25 +1925,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1176" extended-state="6" />
+    <frame x="-4" y="-4" width="1928" height="1156" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33020833" sideWeight="0.7247353" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33020833" sideWeight="0.7252208" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.48924732" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32976446" sideWeight="0.6742349" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17916666" sideWeight="0.7247353" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32723773" sideWeight="0.48125" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17916666" sideWeight="0.7252208" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32679096" sideWeight="0.47916666" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27526468" sideWeight="0.70104164" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27526468" sideWeight="0.2953125" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2747792" sideWeight="0.6984375" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32679096" sideWeight="0.5171875" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206067" sideWeight="0.20930232" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.4935484" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30028874" sideWeight="0.384375" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29931304" sideWeight="0.38125" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.49139786" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2532258" sideWeight="0.7164179" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39989293" sideWeight="0.6742349" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31927082" sideWeight="0.7247353" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.31927082" sideWeight="0.673209" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33168805" sideWeight="0.4678801" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="100" y="100" width="1720" height="968" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1041,107 +2026,119 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.java">
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/JettyServer.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.33284023" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NodePropertyComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.IdeaIC11/system/compiler/src.d12dcd81/.generated/groovyStubs/d12dcd81/IJIDEA/production/nuzzgraph/dbclient/gui/MainFormTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="40" selection-end="40" vertical-scroll-proportion="0.06626506" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="5" column="6" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="42" selection-start="1801" selection-end="1801" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/NodeHelper.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="7" selection-start="145" selection-end="145" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/NuzzGUIHelper.scala">
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeCollection.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainMenuBar.scala">
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeController.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="327" selection-end="327" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainFormGui.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRawGui.form">
-      <provider selected="true" editor-type-id="ui-designer">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw_gui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="5" selection-start="1220" selection-end="1220" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="14" selection-start="731" selection-end="731" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/TabNodeRaw.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="6" selection-start="936" selection-end="936" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_03/src.zip!/java/awt/Container.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1085" column="0" selection-start="42930" selection-end="42930" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/DBClientMain.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="21" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/gui/MainForm_gui.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="27" selection-start="900" selection-end="900" vertical-scroll-proportion="0.7922438">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="method#$$$setupUI$$$#0;class#MainForm_gui#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeFunctionsContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="7" selection-start="393" selection-end="393" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeReference.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeSchema.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/RelationshipTypeContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/RelationshipType.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="6" selection-start="164" selection-end="164" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/exception/NodeFunction.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="225" selection-end="225" vertical-scroll-proportion="0.36946565">
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +2209,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11286683" />
+                <option value="0.11286681" />
               </list>
             </option>
           </splitter-proportions>
@@ -1232,11 +2229,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Scala</last-edited>
+          <last-edited>scalatest-1.7</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.11286683" />
+                <option value="0.20402299" />
               </list>
             </option>
           </splitter-proportions>

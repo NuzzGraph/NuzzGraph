@@ -6,8 +6,6 @@ import com.tinkerpop.blueprints.pgm.Vertex
 import javaEventing.EventManager
 import javaEventing.interfaces.Event
 import javaEventing.interfaces.GenericEventListener
-import nuzzgraph.dbclient.NodeHelper$
-import nuzzgraph.dbclient.DBClientMain
 import nuzzgraph.server.core.NodeInstance
 import nuzzgraph.server.core.NodePropertiesContainer
 import nuzzgraph.server.core.exception.ServerIntegrityException
@@ -22,11 +20,9 @@ import java.util.ArrayList
 import java.util.Arrays
 import java.util.HashMap
 import util.Sorting
+import nuzzgraph.dbclient.{NodeHelper, DBClientMain}
 
 /**
- * User: Mark Nuzzolilo
- * Date: 3/28/12
- * Time: 12:09 PM
  */
 class TabNodeRaw(gui: TabNodeRaw_gui) extends JComponent
 {
@@ -209,7 +205,7 @@ class TabNodeRaw(gui: TabNodeRaw_gui) extends JComponent
     listModel.clear
     import scala.collection.JavaConversions._
     for (v <- vertices) {
-      listModel.addElement("Node " + NodeHelper$.MODULE$.getNodeId(v))
+      listModel.addElement("Node " + NodeHelper.getNodeId(v))
     }
   }
 
