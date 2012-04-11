@@ -5,6 +5,8 @@ import com.orientechnologies.orient.core.Orient
 import com.orientechnologies.orient.core.db.document.ODatabaseDocumentTx
 import com.orientechnologies.orient.core.metadata.schema.OClass
 import com.tinkerpop.blueprints.pgm.impls.orientdb.OrientGraph
+import eric.Console
+import ServerStatus._
 
 object ServerController {
   def main(args: Array[String]): Unit = {

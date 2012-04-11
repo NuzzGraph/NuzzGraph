@@ -43,10 +43,8 @@ class ServerHandler extends AbstractHandler {
       controllerType match {
         case "test" =>
           responseOutput = "Test successful."
-          break //todo: break is not supported
         case "node" =>
           responseOutput = NodeController.processRequest(parameters)
-          break //todo: break is not supported
       }
     }
     response.setContentType("application/json;charset=utf-8")

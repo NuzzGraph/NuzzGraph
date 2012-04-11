@@ -3,9 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="216513d3-8d4a-4568-b0c1-375d2b9723d1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/JettyServer.scala" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/JettyServer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala" afterPath="$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" afterPath="$PROJECT_DIR$/out/production/IJIDEA/.idea/workspace.xml" />
     </list>
     <ignored path="NuzzGraph.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -68,11 +70,42 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="DBClientMain_test.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test/DBClientMain_test.scala">
+      <file leaf-file-name="ServerHandler.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="61" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
+            <state line="48" column="5" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServerController.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="102" column="17" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodePropertiesContainer.scala" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NodeController.scala" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeController.scala">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="7" selection-start="898" selection-end="898" vertical-scroll-proportion="0.62666667">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -80,34 +113,7 @@
       <file leaf-file-name="ServerStatus.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NodeRelationshipsContainer.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="21" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JettyServer.scala" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/JettyServer.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="669" selection-end="669" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServerIntegrityException.scala" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="304" selection-end="304" vertical-scroll-proportion="0.46841294">
+            <state line="2" column="7" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -127,22 +133,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeCollection.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeController.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeDataContainer.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeFunctionsContainer.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeInstance.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeReference.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeSchema.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/RelationshipType.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/RelationshipTypeContainer.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala" />
-        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala" />
         <option value="$PROJECT_DIR$/nuzzgraph/server/core/JettyServer.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala" />
+        <option value="$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala" />
       </list>
     </option>
   </component>
@@ -480,6 +486,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="core" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="NuzzGraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="nuzzgraph" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dbclient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane">
@@ -743,9 +807,9 @@
     </configuration>
     <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.ServerController" />
-      <item index="1" class="java.lang.String" itemvalue="Application.hello" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DBClientMain" />
-      <item index="3" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="1" class="java.lang.String" itemvalue="Scala Console.Scala Console" />
+      <item index="2" class="java.lang.String" itemvalue="Application.hello" />
+      <item index="3" class="java.lang.String" itemvalue="Application.DBClientMain" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -822,10 +886,10 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17916666" sideWeight="0.7252208" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2747792" sideWeight="0.6984375" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3016815" sideWeight="0.62447476" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3016815" sideWeight="0.63235295" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3206067" sideWeight="0.20930232" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.4935484" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3016815" sideWeight="0.37184873" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3016815" sideWeight="0.36397058" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935324" sideWeight="0.49139786" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2532258" sideWeight="0.7164179" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -915,40 +979,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeSchema.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/RelationshipTypeContainer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -994,23 +1028,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test/DBClientMain_test.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="61" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeRelationshipsContainer.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state line="29" column="21" selection-start="728" selection-end="728" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/dbclient/test/DBClientMain_test.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="61" selection-start="163" selection-end="163" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1024,8 +1051,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/exception/ServerIntegrityException.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="304" selection-end="304" vertical-scroll-proportion="0.46841294">
+        <state line="2" column="0" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerHandler.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="5" selection-start="1635" selection-end="1635" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerStatus.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="38" selection-end="38" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/ServerController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="102" column="17" selection-start="2696" selection-end="2696" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodePropertiesContainer.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nuzzgraph/server/core/NodeController.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="7" selection-start="898" selection-end="898" vertical-scroll-proportion="0.62666667">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
