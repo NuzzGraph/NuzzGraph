@@ -3,18 +3,12 @@ package nuzzgraph.server.core
 import org.eclipse.jetty.server.Server
 import org.eclipse.jetty.server.handler.ContextHandlerCollection
 
-class JettyServer {
-  def this() {
-    this()
-    `this`(604)
-  }
+class JettyServer(runningPort:Int) {
+  def this() = this(604) //default port
 
-  def this(runningPort: Integer) {
-    this()
-    server = new Server(runningPort)
-    handler = new ServerHandler
-    server.setHandler(handler)
-  }
+  val server : Server = new Server(runningPort)
+  val handler : ServerHandler = new ServerHandler
+  server.setHandler(handler)
 
   def setHandler(contexts: ContextHandlerCollection): Unit = {
     server.setHandler(contexts)
@@ -36,7 +30,4 @@ class JettyServer {
   def isStopped: Boolean = {
     return server.isStopped
   }
-
-  private var server: Server = null
-  private var handler: ServerHandler = null
 }

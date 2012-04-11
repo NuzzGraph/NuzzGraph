@@ -11,11 +11,10 @@ import java.util.HashMap
  */
 object NodeRelationshipsContainer {
 
-  private[core] final object RelationshipContainerType {
-    final val Incoming: = null
-    final val Outgoing: = null
+  private[core] final object RelationshipContainerType extends Enumeration {
+    val Incoming = Value("Incoming")
+    val Outgoing = Value("Outgoing")
   }
-
 }
 
 class NodeRelationshipsContainer extends HashMap[String, NodeCollection] {

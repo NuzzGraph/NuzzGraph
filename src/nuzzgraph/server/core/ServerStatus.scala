@@ -1,8 +1,9 @@
 package nuzzgraph.server.core
 
-final object ServerStatus {
-  final val Stopped: = null
-  final val Initializing: = null
-  final val Available: = null
-  final val Failed: = null
+object ServerStatus extends Enumeration {
+  type ServerStatus = Value
+  val Stopped = Value("Stopped")
+  val Initializing = Value("Initializing")
+  val Available = Value("Available")
+  val Failed = Value("Failed")
 }
