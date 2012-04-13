@@ -152,7 +152,7 @@ class TabNodeRaw(gui: TabNodeRaw_gui) extends JComponent
     currentNodeProperties = new ArrayList[NodePropertyComponent]
     gui.panelNodeRawPropertiesData.removeAll
     var n: NodeInstance = NodeInstance.get(nodeid)
-    var props: NodePropertiesContainer = n.getNodeData.getProperties
+    var props: NodePropertiesContainer = n.getNodeData.properties
     var keys: Array[String] = new Array[String](props.keySet.size)
     props.keySet.toArray(keys)
     Sorting.quickSort(keys)

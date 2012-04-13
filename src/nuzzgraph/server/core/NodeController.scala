@@ -21,12 +21,12 @@ object NodeController {
     var node: NodeInstance = null
     try {
       if (args == null || args.length < 1) return ""
-      var id: Long = Long.parseLong(args(0))
+      var id: Long = args(0).toInt
       try {
         node = NodeInstance.get(id)
       }
       catch {
-        case ex: Nothing => {
+        case ex: Exception => {
           output = ex.getMessage
           return output
         }

@@ -1,36 +1,36 @@
 package nuzzgraph.server.core
 
-import com.tinkerpop.blueprints.pgm.Edge
+import scala.collection.JavaConversions._
+import Implicits._
+
 import java.util.HashMap
+import nuzzgraph.dbclient.NodeHelper
+import RelationshipContainerType._
+import com.tinkerpop.blueprints.pgm.{Vertex, Edge}
 
-/**
- * Contains a list of relationships for a node
- * User: Mark Nuzzolilo
- * Date: 3/19/12
- * Time: 10:04 PM
+
+/*
+  Contains a list of relationships for a node
+  Key: Relationship Type
+  Value: NodeCollection representing list of nodes
  */
-object NodeRelationshipsContainer {
+class NodeRelationshipsContainer(containerType: RelationshipContainerType) extends HashMap[String, NodeCollection] {
 
-  private[core] final object RelationshipContainerType extends Enumeration {
-    val Incoming = Value("Incoming")
-    val Outgoing = Value("Outgoing")
-  }
-}
+  def load(v: Vertex){
+    val edges = if (containerType eq RelationshipContainerType.Incoming) v.getInEdges() else v.getOutEdges()
 
-class NodeRelationshipsContainer extends HashMap[String, NodeCollection] {
-  def this() {
-    this()
-    `super`
-  }
+//    edges.foreach{ e =>
+    for (e <- edges) yield
+    {
+      if (!containsKey(e.getLabel)) //Add new key if it does not exist
+        put(e.getLabel, new NodeCollection)
 
-  def this(relationships: Iterable[Edge], containerType: NodeRelationshipsContainer.RelationshipContainerType) {
-    this()
-    `super`
-    import scala.collection.JavaConversions._
-    for (relationship <- relationships) {
-      if (!containsKey(relationship.getLabel)) put(relationship.getLabel, new NodeCollection)
-      if (containerType eq RelationshipContainerType.Incoming) get(relationship.getLabel).add(new NodeReference(Long.valueOf(relationship.getOutVertex.getId.toString)))
-      if (containerType eq RelationshipContainerType.Outgoing) get(relationship.getLabel).add(new NodeReference(Long.valueOf(relationship.getInVertex.getId.toString)))
+      if (containerType eq RelationshipContainerType.Incoming)
+        get(e.getLabel).add(new NodeReference(e.getOutVertex.nuzzGraphId))
+
+      else if (containerType eq RelationshipContainerType.Outgoing)
+        get(e.getLabel).add(new NodeReference(e.getInVertex.nuzzGraphId))
     }
   }
 }
+

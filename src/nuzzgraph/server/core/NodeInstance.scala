@@ -3,6 +3,7 @@ package nuzzgraph.server.core
 import com.orientechnologies.orient.core.exception.ODatabaseException
 import com.tinkerpop.blueprints.pgm.TransactionalGraph
 import com.tinkerpop.blueprints.pgm.Vertex
+import exception.ServerIntegrityException
 import java.util.HashMap
 
 /**
@@ -29,11 +30,12 @@ object NodeInstance {
     if (v == null) throw new NullPointerException("Node with ID " + id + " was not found.")
     var n: NodeInstance = new NodeInstance(v)
     n.id = id
-    n.nodeData = new NodeDataContainer(v)
+    n.nodeData = new NodeDataContainer
+    n.nodeData.load(v)
     n.internalData = v
-    if (n.nodeData.getOutgoingRelationships.containsKey("IsNodeType")) {
-      if (n.nodeData.getOutgoingRelationships.get("IsNodeType").size != 1) throw new Nothing("Expected 1 NodeType for node " + id)
-      var nodeTypeNode: NodeReference = n.nodeData.getOutgoingRelationships.get("IsNodeType").get(0)
+    if (n.nodeData.outgoingRelationships.containsKey("IsNodeType")) {
+      if (n.nodeData.outgoingRelationships.get("IsNodeType").size != 1) throw new ServerIntegrityException("Expected 1 NodeType for node " + id)
+      var nodeTypeNode: NodeReference = n.nodeData.outgoingRelationships.get("IsNodeType").get(0)
     }
     return n
   }
@@ -74,7 +76,7 @@ class NodeInstance {
 
   def uploadDataForSave(properties: HashMap[String, String]): Unit = {
     beginUploadData
-    newNodeData.getProperties.putAll(properties)
+    newNodeData.properties.putAll(properties)
   }
 
   /**
@@ -98,7 +100,7 @@ class NodeInstance {
       import scala.collection.JavaConversions._
       for (propertyKey <- internalData.getPropertyKeys) internalData.removeProperty(propertyKey)
       import scala.collection.JavaConversions._
-      for (propertyKey <- newNodeData.getProperties.keySet) internalData.setProperty(propertyKey, newNodeData.getProperties.get(propertyKey))
+      for (propertyKey <- newNodeData.properties.keySet) internalData.setProperty(propertyKey, newNodeData.properties.get(propertyKey))
       ServerController.getGraphDB.stopTransaction(TransactionalGraph.Conclusion.SUCCESS)
       nodeData = newNodeData
       newNodeData = null

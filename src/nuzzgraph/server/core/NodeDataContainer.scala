@@ -8,25 +8,15 @@ import com.tinkerpop.blueprints.pgm.Vertex
  * Date: 3/19/12
  * Time: 9:42 PM
  */
-class NodeDataContainer {
-  def this() {
-    this()
-    properties = new NodePropertiesContainer
-    incomingRelationships = new NodeRelationshipsContainer
-    outgoingRelationships = new NodeRelationshipsContainer
-  }
+class NodeDataContainer() {
+  private var _properties = new NodePropertiesContainer
+  private var _incomingRelationships = new NodeRelationshipsContainer(RelationshipContainerType.Incoming)
+  private var _outgoingRelationships = new NodeRelationshipsContainer(RelationshipContainerType.Outgoing)
 
-  /**
-   * Creates a new NodeDataContainer
-   * @param v The underlying Vertex object associated with this node
-   */
-  def this(v: Vertex) {
-    this()
-    if (v != null) {
-      properties = new NodePropertiesContainer(v)
-      incomingRelationships = new NodeRelationshipsContainer(v.getInEdges, NodeRelationshipsContainer.RelationshipContainerType.Incoming)
-      outgoingRelationships = new NodeRelationshipsContainer(v.getOutEdges, NodeRelationshipsContainer.RelationshipContainerType.Outgoing)
-    }
+  def load(v: Vertex){
+    properties.load(v)
+    incomingRelationships.load(v)
+    outgoingRelationships.load(v)
   }
 
   /**
@@ -34,11 +24,11 @@ class NodeDataContainer {
    * @param destination
    */
   def copyTo(destination: NodeDataContainer): Unit = {
-    destination.properties = new NodePropertiesContainer
+    destination._properties = new NodePropertiesContainer
     destination.properties.putAll(properties)
-    destination.incomingRelationships = new NodeRelationshipsContainer
+    destination._incomingRelationships = new NodeRelationshipsContainer(RelationshipContainerType.Incoming)
     destination.incomingRelationships.putAll(incomingRelationships)
-    destination.outgoingRelationships = new NodeRelationshipsContainer
+    destination._outgoingRelationships = new NodeRelationshipsContainer(RelationshipContainerType.Outgoing)
     destination.outgoingRelationships.putAll(outgoingRelationships)
   }
 
@@ -46,27 +36,17 @@ class NodeDataContainer {
    * Gets the properties for this node
    * @return the node's properties
    */
-  def getProperties: NodePropertiesContainer = {
-    return properties
-  }
+  def properties = _properties
 
   /**
    * Gets the incoming relationships for this node
    * @return the node's incoming relationships
    */
-  def getIncomingRelationships: NodeRelationshipsContainer = {
-    return incomingRelationships
-  }
+  def incomingRelationships = _incomingRelationships
 
   /**
    * Gets the outgoing relationships for this node
    * @return the node's outgoing relationships
    */
-  def getOutgoingRelationships: NodeRelationshipsContainer = {
-    return outgoingRelationships
-  }
-
-  private[core] var properties: NodePropertiesContainer = null
-  private[core] var incomingRelationships: NodeRelationshipsContainer = null
-  private[core] var outgoingRelationships: NodeRelationshipsContainer = null
+  def outgoingRelationships = _outgoingRelationships
 }
