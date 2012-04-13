@@ -18,7 +18,7 @@ object DBClientMain
   var form: MainForm_gui = null
   var exiting: Boolean = false
 
-  def main(args: Array[String]): Unit = {
+  def startMain(args: Array[String]): Unit = {
     frame = new JFrame("NuzzGraph")
     frame.setMenuBar(new MainMenuBar)
     frame.setMinimumSize(new Dimension(900, 600))

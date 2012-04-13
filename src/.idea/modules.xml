@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IJIDEA.iml" filepath="$PROJECT_DIR$/IJIDEA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NuzzGraph.DBClient.iml" filepath="$PROJECT_DIR$/NuzzGraph.DBClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/nuzzgraph/server/NuzzGraph.Server.iml" filepath="$PROJECT_DIR$/nuzzgraph/server/NuzzGraph.Server.iml" />
     </modules>
   </component>
 </project>

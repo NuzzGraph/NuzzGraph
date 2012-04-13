@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/IJIDEA.iml" filepath="$PROJECT_DIR$/IJIDEA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NuzzGraph.iml" filepath="$PROJECT_DIR$/NuzzGraph.iml" />
     </modules>
   </component>
 </project>
