@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="nuzzgraph.dbclient.gui.MainForm_gui">
+  <grid id="27dc6" binding="panelMain" layout-manager="FormLayout">
+    <rowspec value="fill:d:grow"/>
+    <rowspec value="fill:max(d;1px):noGrow"/>
+    <colspec value="fill:max(d;600px):grow"/>
+    <constraints>
+      <xy x="0" y="-2" width="776" height="538"/>
+    </constraints>
+    <properties>
+      <minimumSize width="278" height="300"/>
+      <visible value="true"/>
+    </properties>
+    <border type="none" title=""/>
+    <children>
+      <splitpane id="1cfac" binding="splitMain">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="200" height="207"/>
+          </grid>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <continuousLayout value="false"/>
+          <dividerLocation value="380"/>
+          <oneTouchExpandable value="false"/>
+          <orientation value="0"/>
+          <resizeWeight value="1.0"/>
+          <visible value="true"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <tabbedpane id="a272f" binding="tabs">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <visible value="true"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="7ba3" binding="tabRaw" layout-manager="FormLayout">
+                <rowspec value="center:d:grow"/>
+                <colspec value="fill:d:grow"/>
+                <constraints>
+                  <tabbedpane title="Raw"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <grid id="811c7" binding="p1" layout-manager="FormLayout">
+                    <rowspec value="fill:d:grow"/>
+                    <colspec value="fill:d:grow"/>
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-vert="false"/>
+                    </constraints>
+                    <properties/>
+                    <border type="none"/>
+                    <children>
+                      <nested-form id="ce230" form-file="nuzzgraph/dbclient/gui/TabNodeRawGui.form" binding="cTabNodeRaw">
+                        <constraints>
+                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+                          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                        </constraints>
+                      </nested-form>
+                    </children>
+                  </grid>
+                </children>
+              </grid>
+              <grid id="49669" binding="tabRawGraph" layout-manager="FormLayout">
+                <rowspec value="center:d:grow"/>
+                <colspec value="fill:d:grow"/>
+                <constraints>
+                  <tabbedpane title="Raw Graph"/>
+                </constraints>
+                <properties/>
+                <border type="none" title=""/>
+                <children>
+                  <component id="ef400" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="Graph view not available"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f44f1" binding="tabHighLevel1" layout-manager="FormLayout">
+                <rowspec value="center:d:grow"/>
+                <colspec value="fill:d:grow"/>
+                <constraints>
+                  <tabbedpane title="High-Level"/>
+                </constraints>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="989b1" class="javax.swing.JLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="High-Level view not available"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </tabbedpane>
+          <scrollpane id="a5afc">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="5e3f" class="javax.swing.JTextPane" binding="txtLog">
+                <constraints/>
+                <properties>
+                  <text value=""/>
+                </properties>
+              </component>
+            </children>
+          </scrollpane>
+        </children>
+      </splitpane>
+      <grid id="9a5fb" binding="panelIntro" layout-manager="FormLayout">
+        <rowspec value="center:15px:grow"/>
+        <rowspec value="top:4dlu:noGrow"/>
+        <rowspec value="center:max(d;4px):noGrow"/>
+        <colspec value="fill:d:grow"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-horz="false"/>
+        </constraints>
+        <properties>
+          <visible value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="fe813" class="javax.swing.JLabel" binding="lblIntro">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <text value="Connect to server first"/>
+            </properties>
+          </component>
+          <scrollpane id="ecefc" binding="spNodeRawRelationships">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <forms/>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="d33a9"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <grid id="f87da" layout-manager="FormLayout">
+                <rowspec value="fill:d:grow"/>
+                <colspec value="fill:d:grow"/>
+                <constraints/>
+                <properties/>
+                <border type="none"/>
+                <children>
+                  <component id="d33a9" class="javax.swing.JScrollBar" binding="scrollBarNodeRawRelationships">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

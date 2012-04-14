@@ -14,19 +14,6 @@
       <root url="file://$PROJECT_DIR$/../lib/OrientDB/src/test/java" />
       <root url="file://$PROJECT_DIR$/../lib/OrientDB/main/java" />
       <root url="file://$PROJECT_DIR$/../lib/OrientDB/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/tinkerpop-blueprints-d437da6/blueprints-orient-graph/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/tinkerpop-blueprints-d437da6/blueprints-orient-graph/src/test/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/commons/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/commons/src/test/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/distribution/src" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/core/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/core/src/test/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/client/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/enterprise/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/graphdb/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/graphdb/src/test/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/server/src/main/java" />
-      <root url="file://$PROJECT_DIR$/../../../Libraries/OrientDB-src/tags/1.0rc8/tools/src/main/java" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/../lib/OrientDB" recursive="false" />
     <jarDirectory url="file://$PROJECT_DIR$/../lib/OrientDB" recursive="false" />

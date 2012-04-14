@@ -12,10 +12,10 @@
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$/nuzzgraph">
-      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient/nuzzgraph.dbclient" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient/nuzzgraph.dbclient.test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient/test" isTestSource="true" />
     </content>
-    <orderEntry type="inheritedJdk" />
+    <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Jetty8" level="project" />
     <orderEntry type="library" scope="PROVIDED" name="OrientDB" level="project" />
