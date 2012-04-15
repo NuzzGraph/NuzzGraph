@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="scala" name="Scala">
+      <configuration>
+        <option name="compilerLibraryLevel" value="Project" />
+        <option name="compilerLibraryName" value="Scala-compiler" />
+      </configuration>
+    </facet>
+  </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
     <content url="file://$MODULE_DIR$">
@@ -7,6 +15,14 @@
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Scala-compiler" level="project" />
+    <orderEntry type="library" name="Jetty8" level="project" />
+    <orderEntry type="library" name="eric" level="project" />
+    <orderEntry type="library" name="OrientDB" level="project" />
+    <orderEntry type="library" name="Scala" level="project" />
+    <orderEntry type="library" name="scalatest-1.7" level="project" />
+    <orderEntry type="library" name="JavaEventing1.5.0" level="project" />
+    <orderEntry type="library" name="gson-2.1" level="project" />
   </component>
 </module>
 

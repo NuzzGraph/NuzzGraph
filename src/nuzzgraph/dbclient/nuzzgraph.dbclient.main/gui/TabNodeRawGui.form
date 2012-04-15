@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="nuzzgraph.dbclient.main.gui.TabNodeRaw_gui">
+  <grid id="27dc6" binding="panelMain" layout-manager="FormLayout">
+    <rowspec value="fill:d:grow"/>
+    <colspec value="fill:d:grow"/>
+    <constraints>
+      <xy x="18" y="20" width="941" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <splitpane id="24597" binding="split1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <forms defaultalign-vert="false"/>
+        </constraints>
+        <properties>
+          <continuousLayout value="true"/>
+          <dividerLocation value="160"/>
+          <dividerSize value="0"/>
+          <oneTouchExpandable value="false"/>
+          <orientation value="1"/>
+          <resizeWeight value="0.0"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <scrollpane id="26bfd" binding="spListRaw">
+            <constraints>
+              <splitpane position="left"/>
+            </constraints>
+            <properties>
+              <verticalScrollBar value="9399e"/>
+            </properties>
+            <border type="line"/>
+            <children>
+              <grid id="22156" binding="panelListRaw" layout-manager="FormLayout">
+                <rowspec value="fill:d:grow"/>
+                <colspec value="fill:max(d;150px):grow"/>
+                <colspec value="fill:d:noGrow"/>
+                <constraints/>
+                <properties/>
+                <border type="empty">
+                  <color color="-16777216"/>
+                </border>
+                <children>
+                  <component id="9399e" class="javax.swing.JScrollBar" binding="scrollbarNodeSelectionRaw">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+                      <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                  <component id="abcfd" class="javax.swing.JList" binding="listRawNodes">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="150" height="170"/>
+                      </grid>
+                      <forms defaultalign-vert="false"/>
+                    </constraints>
+                    <properties/>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </scrollpane>
+          <splitpane id="c100c" binding="split2">
+            <constraints>
+              <splitpane position="right"/>
+            </constraints>
+            <properties>
+              <dividerLocation value="51"/>
+              <dividerSize value="0"/>
+              <orientation value="0"/>
+            </properties>
+            <border type="line"/>
+            <children>
+              <grid id="c0d11" binding="panelNodeRaw" layout-manager="FormLayout">
+                <rowspec value="center:d:grow"/>
+                <colspec value="fill:d:grow"/>
+                <constraints>
+                  <splitpane position="right"/>
+                </constraints>
+                <properties/>
+                <border type="empty"/>
+                <children>
+                  <splitpane id="f6477" binding="split3">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                        <preferred-size width="200" height="200"/>
+                      </grid>
+                      <forms defaultalign-vert="false"/>
+                    </constraints>
+                    <properties>
+                      <dividerLocation value="380"/>
+                      <dividerSize value="0"/>
+                      <orientation value="1"/>
+                      <resizeWeight value="0.5"/>
+                    </properties>
+                    <border type="empty"/>
+                    <children>
+                      <grid id="c3fe1" binding="panelNodeRawPropertiesOuter" layout-manager="FormLayout">
+                        <rowspec value="center:d:grow"/>
+                        <colspec value="center:max(d;300px):grow"/>
+                        <colspec value="fill:d:noGrow"/>
+                        <constraints>
+                          <splitpane position="left"/>
+                        </constraints>
+                        <properties/>
+                        <border type="empty">
+                          <size top="0" left="0" bottom="0" right="0"/>
+                        </border>
+                        <children>
+                          <splitpane id="c3883" binding="split4">
+                            <constraints>
+                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+                                <preferred-size width="200" height="200"/>
+                              </grid>
+                              <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                            </constraints>
+                            <properties>
+                              <dividerSize value="0"/>
+                              <orientation value="0"/>
+                            </properties>
+                            <border type="empty">
+                              <size top="0" left="0" bottom="0" right="0"/>
+                            </border>
+                            <children>
+                              <grid id="fd2d3" binding="panelNodeRawPropertiesInner" layout-manager="BorderLayout" hgap="0" vgap="0">
+                                <constraints>
+                                  <splitpane position="left"/>
+                                </constraints>
+                                <properties/>
+                                <border type="empty"/>
+                                <children>
+                                  <grid id="3b839" binding="panelPropertyHeader" layout-manager="FormLayout">
+                                    <rowspec value="fill:35px:grow"/>
+                                    <colspec value="right:d:grow"/>
+                                    <colspec value="fill:d:noGrow"/>
+                                    <constraints border-constraint="Center"/>
+                                    <properties/>
+                                    <border type="empty">
+                                      <font/>
+                                    </border>
+                                    <children>
+                                      <component id="2eec0" class="javax.swing.JLabel">
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                                          <forms defaultalign-horz="false"/>
+                                        </constraints>
+                                        <properties>
+                                          <labelFor value="26bfd"/>
+                                          <text value="Node Properties"/>
+                                        </properties>
+                                      </component>
+                                      <component id="2563d" class="javax.swing.JButton" binding="bAddProperty">
+                                        <constraints>
+                                          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                                          <forms defaultalign-horz="false" defaultalign-vert="false"/>
+                                        </constraints>
+                                        <properties>
+                                          <text value="Add Property"/>
+                                        </properties>
+                                      </component>
+                                    </children>
+                                  </grid>
+                                </children>
+                              </grid>
+                              <scrollpane id="37044" binding="spNodeRawProperties">
+                                <constraints>
+                                  <splitpane position="right"/>
+                                </constraints>
+                                <properties>
+                                  <verticalScrollBar value="26e1c"/>
+                                </properties>
+                                <border type="empty"/>
+                                <children>
+                                  <grid id="67f14" binding="panelNodeRawPropertiesDataOuter" layout-manager="FormLayout">
+                                    <rowspec value="center:d:noGrow"/>
+                                    <colspec value="fill:d:grow"/>
+                                    <constraints/>
+                                    <properties/>
+                                    <border type="none"/>
+                                    <children>
+                                      <grid id="58d7" binding="panelNodeRawPropertiesData" layout-manager="GridBagLayout">
+                                        <constraints>
+                                          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+                                          <forms defaultalign-vert="false"/>
+                                        </constraints>
+                                        <properties/>
+                                        <border type="empty"/>
+                                        <children>
+                                          <component id="26e1c" class="javax.swing.JScrollBar" binding="scrollBarNodeRawProperties">
+                                            <constraints>
+                                              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="0" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+                                              <gridbag weightx="1.0" weighty="1.0"/>
+                                            </constraints>
+                                            <properties/>
+                                          </component>
+                                        </children>
+                                      </grid>
+                                    </children>
+                                  </grid>
+                                </children>
+                              </scrollpane>
+                            </children>
+                          </splitpane>
+                        </children>
+                      </grid>
+                      <grid id="ff3de" binding="panelNodeRelationships" layout-manager="FormLayout">
+                        <rowspec value="center:d:grow"/>
+                        <colspec value="fill:d:grow"/>
+                        <constraints>
+                          <splitpane position="right"/>
+                        </constraints>
+                        <properties/>
+                        <border type="none"/>
+                        <children/>
+                      </grid>
+                    </children>
+                  </splitpane>
+                </children>
+              </grid>
+              <grid id="923bc" binding="panelHeader" layout-manager="FormLayout">
+                <rowspec value="center:d:grow"/>
+                <colspec value="fill:d:noGrow"/>
+                <colspec value="left:4dlu:noGrow"/>
+                <colspec value="fill:max(d;4px):noGrow"/>
+                <colspec value="left:4dlu:noGrow"/>
+                <colspec value="fill:max(d;4px):noGrow"/>
+                <colspec value="left:4dlu:noGrow"/>
+                <colspec value="fill:max(d;4px):noGrow"/>
+                <colspec value="left:4dlu:noGrow"/>
+                <colspec value="fill:max(d;4px):noGrow"/>
+                <constraints>
+                  <splitpane position="left"/>
+                </constraints>
+                <properties/>
+                <border type="empty"/>
+                <children>
+                  <component id="635a" class="javax.swing.JButton" binding="bNewNode">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="New Node"/>
+                    </properties>
+                  </component>
+                  <component id="8d61d" class="javax.swing.JButton" binding="bSaveNode">
+                    <constraints>
+                      <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="Save Node"/>
+                    </properties>
+                  </component>
+                  <component id="8cdf3" class="javax.swing.JButton" binding="bReloadNode">
+                    <constraints>
+                      <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="Reload Node"/>
+                    </properties>
+                  </component>
+                  <component id="b3f30" class="javax.swing.JButton" binding="bDeleteNode">
+                    <constraints>
+                      <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="Delete Node"/>
+                    </properties>
+                  </component>
+                  <component id="d93e9" class="javax.swing.JLabel" binding="lblNodeId">
+                    <constraints>
+                      <grid row="0" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+                      <forms/>
+                    </constraints>
+                    <properties>
+                      <text value="No node loaded"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </splitpane>
+        </children>
+      </splitpane>
+    </children>
+  </grid>
+</form>

@@ -4,7 +4,6 @@ import scala.collection.JavaConversions._
 import Implicits._
 
 import java.util.HashMap
-import nuzzgraph.dbclient.NodeHelper
 import RelationshipContainerType._
 import com.tinkerpop.blueprints.pgm.{Vertex, Edge}
 

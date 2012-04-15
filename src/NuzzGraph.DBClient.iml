@@ -4,26 +4,26 @@
     <facet type="scala" name="Scala">
       <configuration>
         <option name="compilerLibraryLevel" value="Project" />
-        <option name="compilerLibraryName" value="Scala" />
+        <option name="compilerLibraryName" value="Scala-compiler" />
         <option name="maximumHeapSize" value="2048" />
       </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$/nuzzgraph">
-      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient/test" isTestSource="true" />
+    <content url="file://$MODULE_DIR$/nuzzgraph/dbclient">
+      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient/nuzzgraph.dbclient.test" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/nuzzgraph/dbclient/nuzzgraph.dbclient.main" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="1.7" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" scope="PROVIDED" name="Jetty8" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="OrientDB" level="project" />
-    <orderEntry type="library" name="eric" level="project" />
+    <orderEntry type="library" name="OrientDB" level="project" />
     <orderEntry type="library" name="gson-2.1" level="project" />
     <orderEntry type="library" name="JavaEventing1.5.0" level="project" />
     <orderEntry type="library" name="Scala" level="project" />
     <orderEntry type="library" name="scalatest-1.7" level="project" />
+    <orderEntry type="library" name="Scala-compiler" level="project" />
+    <orderEntry type="module" module-name="NuzzGraph.Server" />
   </component>
 </module>
 
