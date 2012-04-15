@@ -1,79 +1,70 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <orient-server>
-	<handlers>
-		<handler class="com.orientechnologies.orient.graph.handler.OGraphServerHandler">
-			<parameters />
-		</handler>
-		<handler class="com.orientechnologies.orient.server.handler.distributed.ODistributedServerManager">
-			<parameters>
-				<parameter name="enabled" value="false" />
-				<parameter name="name" value="default" />
-				<parameter name="security.algorithm" value="Blowfish" />
-				<parameter name="network.multicast.address" value="235.1.1.1" />
-				<parameter name="network.multicast.port" value="2424" />
-				<parameter name="network.multicast.heartbeat" value="10" />
-				<parameter name="replication.conflictResolver.strategy" value="com.orientechnologies.orient.server.replication.conflict.ODefaultReplicationConflictResolver" />
-				<parameter name="replication.conflictResolver.ignoreIfSameContent" value="true" />
-				<parameter name="replication.conflictResolver.ignoreIfMergeOk" value="false" />
-				<parameter name="replication.conflictResolver.latestAlwaysWin" value="false" />
-			</parameters>
-		</handler>
-		<!-- AUTOMATIC BACKUP, TO TURN ON SET THE 'ENABLED' PARAMETER TO 'true' -->
-		<handler class="com.orientechnologies.orient.server.handler.OAutomaticBackup">
-			<parameters>
-				<parameter name="enabled" value="false" />
-				<parameter name="delay" value="4h" />
-				<parameter name="target.directory" value="backup" />
-				<parameter name="target.fileName" value="${DBNAME}-${DATE:yyyyMMddHHmmss}.json" /><!-- ${DBNAME} AND ${DATE:} VARIABLES ARE SUPPORTED -->
-				<parameter name="db.include" value="" /><!-- DEFAULT: NO ONE, THAT MEANS ALL DATABASES. USE COMMA TO SEPARATE MULTIPLE DATABASE NAMES -->
-				<parameter name="db.exclude" value="" /><!-- USE COMMA TO SEPARATE MULTIPLE DATABASE NAMES -->
-			</parameters>
-		</handler>
-	</handlers>
-	<network>
-		<protocols>
-			<!-- Default registered protocol. It reads commands using the HTTP protocol and write data locally -->
-			<protocol name="binary" implementation="com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary" />
-			<protocol name="http" implementation="com.orientechnologies.orient.server.network.protocol.http.ONetworkProtocolHttpDb" />
-			<protocol name="cluster" implementation="com.orientechnologies.orient.server.clustering.OClusterNetworkProtocol" />
-		</protocols>
-		<listeners>
-			<listener protocol="binary" ip-address="0.0.0.0" port-range="2424-2430" />
-			<listener protocol="cluster" ip-address="0.0.0.0" port-range="2434-2440" />
-			<listener protocol="http" ip-address="0.0.0.0" port-range="2480-2490">
-				<parameters>
-					<!-- Connection's custom parameters. If not specified the global configuration will be taken -->
-					<parameter name="network.http.charset" value="utf-8" />
-				</parameters>
-				<commands>
-					<command
-						pattern="GET|www GET|studio/ GET| GET|*.htm GET|*.html GET|*.xml GET|*.jpeg GET|*.jpg GET|*.png GET|*.gif GET|*.js GET|*.css GET|*.swf GET|*.ico GET|*.txt GET|*.otf GET|*.pjs GET|*.svg"
-						implementation="com.orientechnologies.orient.server.network.protocol.http.command.get.OServerCommandGetStaticContent">
-						<parameters>
-							<!-- Don't cache html resources in development mode -->
-							<entry name="http.cache:*.htm *.html" value="Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nPragma: no-cache" />
-							<!-- Default caching -->
-							<entry name="http.cache:default" value="Cache-Control: max-age=120" />
-						</parameters>
-					</command>
-				</commands>
-			</listener>
-		</listeners>
-		<cluster>
-		</cluster>
-	</network>
-	<storages>
-		<!-- Default in-memory storage. Data are not saved permanently. -->
-		<storage path="memory:temp" name="temp" userName="admin" userPassword="admin" loaded-at-startup="true" />
-	</storages>
-	<users>
-	</users>
-	<properties>
-		<!-- Caches static contents. If enabled the files will be kept in memory the first time are loaded. Changes to the files will be taken on the next restart -->
-		<entry name="server.cache.file.static" value="false" />
-
-		<!-- Enable/Disable logging. Levels are: finer, fine, finest, info, warning -->
-		<entry name="log.console.level" value="info" />
-		<entry name="log.file.level" value="fine" />
-	</properties>
+    <handlers>
+        <handler class="com.orientechnologies.orient.graph.handler.OGraphServerHandler">
+            <parameters/>
+        </handler>
+        <handler class="com.orientechnologies.orient.server.handler.distributed.ODistributedServerManager">
+            <parameters>
+                <parameter value="false" name="enabled"/>
+                <parameter value="default" name="name"/>
+                <parameter value="Blowfish" name="security.algorithm"/>
+                <parameter value="235.1.1.1" name="network.multicast.address"/>
+                <parameter value="2424" name="network.multicast.port"/>
+                <parameter value="10" name="network.multicast.heartbeat"/>
+                <parameter value="com.orientechnologies.orient.server.replication.conflict.ODefaultReplicationConflictResolver" name="replication.conflictResolver.strategy"/>
+                <parameter value="true" name="replication.conflictResolver.ignoreIfSameContent"/>
+                <parameter value="false" name="replication.conflictResolver.ignoreIfMergeOk"/>
+                <parameter value="false" name="replication.conflictResolver.latestAlwaysWin"/>
+                <parameter value="tfnCyj3Mz3GhUKAE" name="security.key"/>
+            </parameters>
+        </handler>
+        <handler class="com.orientechnologies.orient.server.handler.OAutomaticBackup">
+            <parameters>
+                <parameter value="false" name="enabled"/>
+                <parameter value="4h" name="delay"/>
+                <parameter value="backup" name="target.directory"/>
+                <parameter value="${DBNAME}-${DATE:yyyyMMddHHmmss}.json" name="target.fileName"/>
+                <parameter value="" name="db.include"/>
+                <parameter value="" name="db.exclude"/>
+            </parameters>
+        </handler>
+    </handlers>
+    <network>
+        <protocols>
+            <protocol implementation="com.orientechnologies.orient.server.network.protocol.binary.ONetworkProtocolBinary" name="binary"/>
+            <protocol implementation="com.orientechnologies.orient.server.network.protocol.http.ONetworkProtocolHttpDb" name="http"/>
+            <protocol implementation="com.orientechnologies.orient.server.clustering.OClusterNetworkProtocol" name="cluster"/>
+        </protocols>
+        <listeners>
+            <listener protocol="binary" port-range="2424-2430" ip-address="0.0.0.0"/>
+            <listener protocol="cluster" port-range="2434-2440" ip-address="0.0.0.0"/>
+            <listener protocol="http" port-range="2480-2490" ip-address="0.0.0.0">
+                <commands>
+                    <command implementation="com.orientechnologies.orient.server.network.protocol.http.command.get.OServerCommandGetStaticContent" pattern="GET|www GET|studio/ GET| GET|*.htm GET|*.html GET|*.xml GET|*.jpeg GET|*.jpg GET|*.png GET|*.gif GET|*.js GET|*.css GET|*.swf GET|*.ico GET|*.txt GET|*.otf GET|*.pjs GET|*.svg">
+                        <parameters>
+                            <entry value="Cache-Control: no-cache, no-store, max-age=0, must-revalidate\r\nPragma: no-cache" name="http.cache:*.htm *.html"/>
+                            <entry value="Cache-Control: max-age=120" name="http.cache:default"/>
+                        </parameters>
+                    </command>
+                </commands>
+                <parameters>
+                    <parameter value="utf-8" name="network.http.charset"/>
+                </parameters>
+            </listener>
+        </listeners>
+    </network>
+    <storages>
+        <storage loaded-at-startup="true" userPassword="admin" userName="admin" path="memory:temp" name="temp"/>
+    </storages>
+    <users>
+        <user resources="*" password="266BF9B370BE76DC447459F698053CB6638255FC1EA4950C64B07599063180EA" name="root"/>
+        <user resources="connect,server.listDatabases" password="guest" name="guest"/>
+        <user resources="connect,database.passthrough" password="72D0CCA787A9B86F1CAECC6928371E0CD0ED8B21F48EE409F053C96E88E9F634" name="replicator"/>
+    </users>
+    <properties>
+        <entry value="false" name="server.cache.file.static"/>
+        <entry value="info" name="log.console.level"/>
+        <entry value="fine" name="log.file.level"/>
+    </properties>
 </orient-server>
