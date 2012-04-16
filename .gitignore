@@ -4,3 +4,4 @@ lib/OrientDB/log/orient-server.log.0.lck
 src/out/artifacts/NuzzGraph_jar/NuzzGraph.jar
 *NuzzGraph.jar
 lib/OrientDB/databases/nuzzgraph-test/txlog.otx
+lib/OrientDB/databases/*
