@@ -12,8 +12,7 @@ import java.awt.*;
  * Date: 3/20/12
  * Time: 6:46 PM
  */
-public class MainForm_gui extends JFrame
-{
+public class MainForm_gui extends JFrame {
     private static MainForm mainForm;
 
     JPanel panelMain;
@@ -32,14 +31,12 @@ public class MainForm_gui extends JFrame
 
     public MainForm logic;
 
-    public MainForm_gui()
-    {
+    public MainForm_gui() {
         $$$setupUI$$$();
     }
 
     @PostConstruct
-    public void init()
-    {
+    public void init() {
         logic = new MainForm(this);
         cTabNodeRaw.init();
     }
@@ -52,8 +49,7 @@ public class MainForm_gui extends JFrame
      *
      * @noinspection ALL
      */
-    private void $$$setupUI$$$()
-    {
+    private void $$$setupUI$$$() {
         panelMain = new JPanel();
         panelMain.setLayout(new FormLayout("fill:max(d;600px):grow", "fill:d:grow,fill:max(d;1px):noGrow"));
         panelMain.setMinimumSize(new Dimension(278, 300));
@@ -77,7 +73,7 @@ public class MainForm_gui extends JFrame
         p1 = new JPanel();
         p1.setLayout(new FormLayout("fill:d:grow", "fill:d:grow"));
         tabRaw.add(p1, cc.xy(1, 1, CellConstraints.DEFAULT, CellConstraints.FILL));
-        cTabNodeRaw = new TabNodeRaw_gui();
+        cTabNodeRaw = new nuzzgraph.dbclient.main.gui.TabNodeRaw_gui();
         p1.add(cTabNodeRaw.$$$getRootComponent$$$(), cc.xy(1, 1, CellConstraints.FILL, CellConstraints.FILL));
         tabRawGraph = new JPanel();
         tabRawGraph.setLayout(new FormLayout("fill:d:grow", "center:d:grow"));
@@ -117,6 +113,7 @@ public class MainForm_gui extends JFrame
     /**
      * @noinspection ALL
      */
-    public JComponent $$$getRootComponent$$$()
-    { return panelMain; }
+    public JComponent $$$getRootComponent$$$() {
+        return panelMain;
+    }
 }

@@ -124,7 +124,7 @@
       </item>
     </group>
     <group name="NuzzGraph">
-      <item class="nuzzgraph.dbclient.gui.TabNodeRaw_gui" icon="" removable="true" auto-create-binding="false" can-attach-label="false" is-container="true">
+      <item class="nuzzgraph.dbclient.main.gui.TabNodeRaw_gui" icon="" removable="true" auto-create-binding="false" can-attach-label="false" is-container="true">
         <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
       </item>
     </group>
